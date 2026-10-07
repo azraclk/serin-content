@@ -8,37 +8,43 @@
       "id": "mindfulness",
       "label": "mindfulness",
       "title": "Stillness Within",
-      "image": "images/meditations/mindfulness.jpg"
+      "image": "images/meditations/mindfulness.jpg",
+      "audio": "audio/meditations/mindfulness.wav"
     },
     {
       "id": "breathing",
       "label": "breathing",
       "title": "Rhythm of Life",
-      "image": "images/meditations/breathing.jpg"
+      "image": "images/meditations/breathing.jpg",
+      "audio": "audio/meditations/breathing.wav"
     },
     {
       "id": "sleep",
       "label": "sleep",
       "title": "Nightfall Harmony",
-      "image": "images/meditations/sleep.jpg"
+      "image": "images/meditations/sleep.jpg",
+      "audio": "audio/meditations/sleep.wav"
     },
     {
       "id": "stress-relief",
       "label": "stress relief",
       "title": "Inner Refuge",
-      "image": "images/meditations/stress-relief.jpg"
+      "image": "images/meditations/stress-relief.jpg",
+      "audio": "audio/meditations/stress-relief.wav"
     },
     {
       "id": "focus",
       "label": "focus",
       "title": "One Point",
-      "image": "images/meditations/focus.jpg"
+      "image": "images/meditations/focus.jpg",
+      "audio": "audio/meditations/focus.wav"
     },
     {
       "id": "chakra",
       "label": "chakra",
       "title": "Energy Alignment",
-      "image": "images/meditations/chakra.jpg"
+      "image": "images/meditations/chakra.jpg",
+      "audio": "audio/meditations/chakra.wav"
     }
   ],
   "blogPosts": [
