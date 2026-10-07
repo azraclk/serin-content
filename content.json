@@ -1,0 +1,61 @@
+{
+  "home": {
+    "banner": "images/home/banner.jpg",
+    "featuredPosts": ["history-of-meditation", "power-of-frequencies"]
+  },
+  "meditations": [
+    {
+      "id": "mindfulness",
+      "label": "mindfulness",
+      "title": "Stillness Within",
+      "image": "images/meditations/mindfulness.jpg"
+    },
+    {
+      "id": "breathing",
+      "label": "breathing",
+      "title": "Rhythm of Life",
+      "image": "images/meditations/breathing.jpg"
+    },
+    {
+      "id": "sleep",
+      "label": "sleep",
+      "title": "Nightfall Harmony",
+      "image": "images/meditations/sleep.jpg"
+    },
+    {
+      "id": "stress-relief",
+      "label": "stress relief",
+      "title": "Inner Refuge",
+      "image": "images/meditations/stress-relief.jpg"
+    },
+    {
+      "id": "focus",
+      "label": "focus",
+      "title": "One Point",
+      "image": "images/meditations/focus.jpg"
+    },
+    {
+      "id": "chakra",
+      "label": "chakra",
+      "title": "Energy Alignment",
+      "image": "images/meditations/chakra.jpg"
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "history-of-meditation",
+      "title": "The History of Meditation: From Past to Present",
+      "image": "images/blog/history-of-meditation.jpg"
+    },
+    {
+      "id": "mindfulness-habit",
+      "title": "21-Day Mindfulness Habit Formation Plan",
+      "image": "images/blog/mindfulness-habit.jpg"
+    },
+    {
+      "id": "power-of-frequencies",
+      "title": "The Power of Frequencies: 432 Hz and 528 Hz Music",
+      "image": "images/blog/power-of-frequencies.jpg"
+    }
+  ]
+}
