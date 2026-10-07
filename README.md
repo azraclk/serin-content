@@ -11,7 +11,7 @@ Serin uygulamasının içeriği. Uygulama `content.json` dosyasını ve görsell
 
 ## Şimdiki içerik örnektir
 
-Görseller, başlıklar ve `audio/` klasöründeki sesler gerçek içerik değil, yer tutucu. Sesler uygulamayı test etmek için üretilmiş 30 saniyelik basit tonlardır.
+Görseller, başlıklar, `audio/` klasöründeki sesler ve `posts/` klasöründeki yazılar gerçek içerik değil, yer tutucu. Sesler uygulamayı test etmek için üretilmiş 30 saniyelik basit tonlardır.
 
 ## Görsel değiştirme
 
@@ -32,5 +32,28 @@ Görseller kartlarda ortadan kırpılır. Meditasyon görselleri kare (en az 900
 - **Meditasyon:** `label` kartın üstündeki kısa yazı, `title` detay ekranındaki başlık, `audio` play butonuyla çalan ses (MP3, M4A ya da WAV). `audio` yazılmazsa play butonu pasif görünür.
 - **Blog:** `title` kartta görünen başlık.
 - **Ana sayfa:** `home.featuredPosts` ana sayfada gösterilecek iki blog yazısının `id`'leri. `home.banner` ana sayfadaki büyük görsel.
+
+## Blog yazısı yazma
+
+Her yazı `posts/` klasöründe bir Markdown dosyasıdır ve `content.json` içinde ilgili yazının `body` alanından bağlanır (örn. `"body": "posts/body-scan.md"`). `body` yazılmazsa uygulama "This post is coming soon." gösterir.
+
+Başlık ve görsel `content.json`'dan gelir, dosyaya tekrar yazma. Desteklenen biçimler:
+
+```markdown
+Paragraflar arasında bir boş satır bırak.
+
+## Bölüm başlığı (mor, italik)
+### Alt başlık
+
+**kalın**, *italik*, [bağlantı metni](https://...)
+
+- madde işaretli liste
+1. numaralı liste
+
+## Sources
+1. [Kaynağın adı](https://...)
+```
+
+Tablo, görsel ve alıntı bloğu (`>`) desteklenmez; düz metin olarak görünür. Bir yazıyı güncellemek için dosyayı değiştirmen yeterli, ad değiştirmene gerek yok.
 
 JSON'da bir virgül ya da tırnak hatası olursa uygulama dosyayı yok sayar ve bir önceki içeriği göstermeye devam eder. Göndermeden önce [jsonlint.com](https://jsonlint.com) ile kontrol edebilirsin.
