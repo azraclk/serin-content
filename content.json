@@ -6,43 +6,43 @@
   "meditations": [
     {
       "id": "mindfulness",
-      "label": "mindfulness",
-      "title": "Stillness Within",
+      "label": "farkındalık",
+      "title": "İçsel Dinginlik",
       "image": "images/meditations/mindfulness.jpg",
       "audio": "audio/meditations/mindfulness.wav"
     },
     {
       "id": "breathing",
-      "label": "breathing",
-      "title": "Rhythm of Life",
+      "label": "nefes",
+      "title": "Hayatın Ritmi",
       "image": "images/meditations/breathing.jpg",
       "audio": "audio/meditations/breathing.wav"
     },
     {
       "id": "sleep",
-      "label": "sleep",
-      "title": "Nightfall Harmony",
+      "label": "uyku",
+      "title": "Akşamın Uyumu",
       "image": "images/meditations/sleep.jpg",
       "audio": "audio/meditations/sleep.wav"
     },
     {
       "id": "stress-relief",
-      "label": "stress relief",
-      "title": "Inner Refuge",
+      "label": "stres azaltma",
+      "title": "İç Sığınak",
       "image": "images/meditations/stress-relief.jpg",
       "audio": "audio/meditations/stress-relief.wav"
     },
     {
       "id": "focus",
-      "label": "focus",
-      "title": "One Point",
+      "label": "odak",
+      "title": "Tek Nokta",
       "image": "images/meditations/focus.jpg",
       "audio": "audio/meditations/focus.wav"
     },
     {
       "id": "chakra",
-      "label": "chakra",
-      "title": "Energy Alignment",
+      "label": "çakra",
+      "title": "Enerji Dengesi",
       "image": "images/meditations/chakra.jpg",
       "audio": "audio/meditations/chakra.wav"
     }
@@ -50,19 +50,19 @@
   "blogPosts": [
     {
       "id": "history-of-meditation",
-      "title": "The History of Meditation: From Past to Present",
+      "title": "Meditasyonun Tarihi: Geçmişten Bugüne",
       "image": "images/blog/history-of-meditation.jpg",
       "body": "posts/history-of-meditation.md"
     },
     {
       "id": "mindfulness-habit",
-      "title": "21-Day Mindfulness Habit Formation Plan",
+      "title": "21 Günde Farkındalık Alışkanlığı Planı",
       "image": "images/blog/mindfulness-habit.jpg",
       "body": "posts/mindfulness-habit.md"
     },
     {
       "id": "power-of-frequencies",
-      "title": "The Power of Frequencies: 432 Hz and 528 Hz Music",
+      "title": "Frekansların Gücü: 432 Hz ve 528 Hz Müzik",
       "image": "images/blog/power-of-frequencies.jpg",
       "body": "posts/power-of-frequencies.md"
     }

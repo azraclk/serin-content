@@ -1,23 +1,23 @@
-*Placeholder text. The researched article will replace this.*
+*Yer tutucu metin. Araştırmaya dayalı yazı bunun yerine gelecek.*
 
-This is where the introduction of **The Power of Frequencies: 432 Hz and 528 Hz Music** will go. It sets the scene in two or three sentences and tells the reader what they will take away from the article.
+Burada **Frekansların Gücü: 432 Hz ve 528 Hz Müzik** yazısının girişi yer alacak. Giriş, konuyu iki üç cümleyle tanıtır ve okuyucunun yazıdan ne kazanacağını söyler.
 
-## First section
+## Birinci bölüm
 
-A paragraph that develops the first idea. Longer paragraphs wrap naturally, and *italic* or **bold** words can be used for emphasis where it helps the reader.
+İlk fikri geliştiren bir paragraf. Uzun paragraflar doğal biçimde alt satıra geçer; gerektiğinde *italik* ya da **kalın** sözcüklerle vurgu yapılabilir.
 
-- A short bullet point
-- Another point that is a little longer so that it wraps onto a second line on a phone screen
-- A final point
+- Kısa bir madde
+- Telefon ekranında ikinci satıra geçecek kadar uzun başka bir madde
+- Son madde
 
-## Second section
+## İkinci bölüm
 
-Another paragraph with a [link to a source](https://example.com) placed inline, the way references will appear in the real articles.
+Gerçek yazılardaki gibi, [bir kaynağa bağlantı](https://example.com) satır içinde verilmiş başka bir paragraf.
 
-1. A numbered step
-2. Another numbered step
+1. Numaralı bir adım
+2. Numaralı bir adım daha
 
-## Sources
+## Kaynaklar
 
-1. [Example source one](https://example.com)
-2. [Example source two](https://example.com)
+1. [Örnek kaynak bir](https://example.com)
+2. [Örnek kaynak iki](https://example.com)
