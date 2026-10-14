@@ -9,42 +9,49 @@
       "label": "farkındalık",
       "title": "İçsel Dinginlik",
       "image": "images/meditations/mindfulness.jpg",
-      "audio": "audio/meditations/mindfulness.wav"
+      "audio": "audio/meditations/mindfulness.wav",
+      "description": "Şu ana dön ve düşüncelerini yargılamadan izle."
     },
     {
       "id": "breathing",
       "label": "nefes",
       "title": "Hayatın Ritmi",
       "image": "images/meditations/breathing.jpg",
-      "audio": "audio/meditations/breathing.wav"
+      "audio": "audio/meditations/breathing.wav",
+      "description": "Nefesinin ritmine eşlik et, bedenin yavaşça sakinleşsin.",
+      "breathing": true
     },
     {
       "id": "sleep",
       "label": "uyku",
       "title": "Akşamın Uyumu",
       "image": "images/meditations/sleep.jpg",
-      "audio": "audio/meditations/sleep.wav"
+      "audio": "audio/meditations/sleep.wav",
+      "description": "Günün yükünü bırak ve uykuya hazırlan."
     },
     {
       "id": "stress-relief",
       "label": "stres azaltma",
       "title": "İç Sığınak",
       "image": "images/meditations/stress-relief.jpg",
-      "audio": "audio/meditations/stress-relief.wav"
+      "audio": "audio/meditations/stress-relief.wav",
+      "description": "Gerginliği bırak, kendine sakin bir iç alan kur."
     },
     {
       "id": "focus",
       "label": "odak",
       "title": "Tek Nokta",
       "image": "images/meditations/focus.jpg",
-      "audio": "audio/meditations/focus.wav"
+      "audio": "audio/meditations/focus.wav",
+      "description": "Dikkatini tek bir noktada topla."
     },
     {
       "id": "chakra",
       "label": "çakra",
       "title": "Enerji Dengesi",
       "image": "images/meditations/chakra.jpg",
-      "audio": "audio/meditations/chakra.wav"
+      "audio": "audio/meditations/chakra.wav",
+      "description": "Enerji merkezlerine sırayla odaklan ve dengeni bul."
     }
   ],
   "blogPosts": [
