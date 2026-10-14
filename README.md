@@ -30,6 +30,8 @@ Görseller kartlarda ortadan kırpılır. Meditasyon görselleri kare (en az 900
 `meditations` ya da `blogPosts` listesine yeni bir öğe ekle. `id` benzersiz olmalı, küçük harf ve tire kullan (örn. `body-scan`).
 
 - **Meditasyon:** `label` kartın üstündeki kısa yazı, `title` detay ekranındaki başlık, `audio` play butonuyla çalan ses (MP3, M4A ya da WAV). `audio` yazılmazsa play butonu pasif görünür.
+  - `description` (isteğe bağlı): başlığın altında görünen kısa açıklama, en çok iki satır. Hem detay ekranında hem ana sayfadaki öneri kartında çıkar. Yazılmazsa hiçbir şey gösterilmez.
+  - `breathing` (isteğe bağlı): `true` ise meditasyonda nefes ritmi seçici (Sakin, 4-7-8, Kutu) gösterilir. Yalnızca nefes meditasyonu için kullan.
 - **Blog:** `title` kartta görünen başlık.
 - **Ana sayfa:** `home.featuredPosts` ana sayfada gösterilecek iki blog yazısının `id`'leri. `home.banner` ana sayfadaki büyük görsel.
 
