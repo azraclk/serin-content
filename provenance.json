@@ -49,84 +49,104 @@
       "notes": "30-second test tone from before the synthesized tracks; to be replaced."
     },
     "images/blog/history-of-meditation.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "8ba3b30e5c227121872d14b7e33495b067c82b06888acd7e24101981da5d854c",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "images/blog/mindfulness-habit.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "127a4ce879f475cfc1ce2eb4ce2dcc8848593beb48b7d5ae1bc303206443fd65",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "images/blog/power-of-frequencies.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "7aee6d46b97af56eae01311a9cd91d67fb78c57ff8ddd4a2b5bd0891f710925c",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "images/home/banner.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "c05bdc047ef8118cee178346795ee52e93549bfdaf27614a33c24e060484c360",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "images/meditations/breathing.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "29d7533209da97b28dda12aaf2ed4bd2b0fda22c7182c0e69b7a0a78a03d81bf",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "images/meditations/chakra.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "73154a8554be08e59593559ca27d60b7ee93eee5bc5f8cb76d29b073e189a8fb",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "images/meditations/focus.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "82c3ad93cd4ce20e6df5e246a4f75d2a764b8665762c4a37e37b37bfd34d196d",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "images/meditations/mindfulness.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "45838137c5018a38bb04c5f5ae77f119b153d70db2d82aad0f98cc61bf38f7ba",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "images/meditations/sleep.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "bc46c22e1307ac9c97283096a6651e6a1ec389ed8b3b0f0a821e692ef0b50927",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "images/meditations/stress-relief.jpg": {
-      "source": "unknown",
-      "license": "unknown",
+      "source": "ai-generated",
+      "license": "Recraft free-plan terms (not for commercial use)",
       "created": "2026-10-07",
       "status": "placeholder",
       "sha256": "c748a4d0fb0b97e4096ad09c4f03c82215fbcedcad7580112d6d30dd43078d91",
-      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+      "notes": "Made on Recraft's free plan, where Recraft keeps the rights. Regenerate on a paid plan before release.",
+      "tool": "Recraft.ai",
+      "plan": "free"
     },
     "posts/history-of-meditation.md": {
       "source": "original",
