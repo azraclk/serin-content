@@ -148,21 +148,69 @@
       "tool": "Recraft.ai",
       "plan": "free"
     },
+    "posts/bedtime-routine.en.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-11-04",
+      "status": "placeholder",
+      "sha256": "46f623b0147807d96ddd55a0166d0087af515308e8a87b07f233d1462dd7351f",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+    },
+    "posts/bedtime-routine.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-11-04",
+      "status": "placeholder",
+      "sha256": "b177d119c774a14e1888ad0ea6d2883c58da932cfccadf165379346f79297613",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+    },
+    "posts/history-of-meditation.en.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-11-04",
+      "status": "placeholder",
+      "sha256": "fee2be612837027934c5b3bf9a2a2dca7cadfa0f10abed66f719cba57df4fdef",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+    },
     "posts/history-of-meditation.md": {
       "source": "original",
       "license": "owned",
-      "created": "2026-10-07",
+      "created": "2026-11-04",
       "status": "placeholder",
-      "sha256": "667a74e47a1107986d90321b5668cbe80e5c34239b842ea30bd9c7d4e4ba50ff",
-      "notes": "Placeholder text; the researched post replaces it."
+      "sha256": "e80b04384347584b32181234d89ffe803f464e45b0194f3f6e9649d957cac361",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+    },
+    "posts/mindfulness-habit.en.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-11-04",
+      "status": "placeholder",
+      "sha256": "e828dd1de850e139e28097ea23ff5bda9f9439b7088fa8f7c7468eecb7d5cf49",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
     },
     "posts/mindfulness-habit.md": {
       "source": "original",
       "license": "owned",
-      "created": "2026-10-07",
+      "created": "2026-11-04",
       "status": "placeholder",
-      "sha256": "e67e3860942cda2e96c148db23b50994ebffe07161d67bfa945713814d18818e",
-      "notes": "Placeholder text; the researched post replaces it."
+      "sha256": "40bc5a0b08452f8f72415a9b1f6caf8cd8282c9cdd2c74a39d626cdc54eb9572",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+    },
+    "posts/pink-and-white-noise.en.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-11-04",
+      "status": "placeholder",
+      "sha256": "8925af1a5781c38412b96ba8b8c8b26b5f7ca9fcb8349e7c4f7fbea5dca86150",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+    },
+    "posts/pink-and-white-noise.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-11-04",
+      "status": "placeholder",
+      "sha256": "478bef6e01ecd6dcee930da4a660958788d576d70f64139d102fbf5a72825212",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
     },
     "posts/power-of-frequencies.en.md": {
       "source": "original",
@@ -178,6 +226,22 @@
       "created": "2026-11-04",
       "status": "placeholder",
       "sha256": "a23a63aad12c9ecfb9ef415fd8ba5f7f3d9d88c1ac772e709f73ebc44d06e6c1",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+    },
+    "posts/slow-breathing.en.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-11-04",
+      "status": "placeholder",
+      "sha256": "45a10aed504dbcb92a3f6e8bfc6941c85a30643810269dda686a63b4027f5fd4",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+    },
+    "posts/slow-breathing.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-11-04",
+      "status": "placeholder",
+      "sha256": "3060b9869c35857b659bb53a503d65e361d7408ec35c77c35c54c14be267861a",
       "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
     }
   }
