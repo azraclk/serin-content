@@ -1,0 +1,20 @@
+name: Provenance
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      release:
+        description: Also fail on anything that is not cleared to ship
+        type: boolean
+        default: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check provenance.json
+        run: python3 -P tools/check_provenance.py ${{ inputs.release && '--release' || '' }}

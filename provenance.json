@@ -1,0 +1,156 @@
+{
+  "assets": {
+    "audio/meditations/breathing.wav": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "2210f8be26416464b291891ff6b76d7b544eccec7db11d396a6661666716d976",
+      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+    },
+    "audio/meditations/chakra.wav": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "0786b8c4184364e3e066945ade484d023aee971df6b449036649fac58e236857",
+      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+    },
+    "audio/meditations/focus.wav": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "dc866c23199f71b6c342eef99df05bb0059f52df461ec198e57550b35441a61a",
+      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+    },
+    "audio/meditations/mindfulness.wav": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "070d66aea8264bc11ab96027ee72768615aa601352d9ec7b6974c2a2449d862f",
+      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+    },
+    "audio/meditations/sleep.wav": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "fd9f4cd756cb3af92b23f5f89a3a5d18aa7fe8ceaaa3bdd295808044263aff7e",
+      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+    },
+    "audio/meditations/stress-relief.wav": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "37b7c4d4373c7f2239c8e993cec1d8fd580250ba34f9c61397bc74ae883b2d40",
+      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+    },
+    "images/blog/history-of-meditation.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "8ba3b30e5c227121872d14b7e33495b067c82b06888acd7e24101981da5d854c",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "images/blog/mindfulness-habit.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "127a4ce879f475cfc1ce2eb4ce2dcc8848593beb48b7d5ae1bc303206443fd65",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "images/blog/power-of-frequencies.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "7aee6d46b97af56eae01311a9cd91d67fb78c57ff8ddd4a2b5bd0891f710925c",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "images/home/banner.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "c05bdc047ef8118cee178346795ee52e93549bfdaf27614a33c24e060484c360",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "images/meditations/breathing.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "29d7533209da97b28dda12aaf2ed4bd2b0fda22c7182c0e69b7a0a78a03d81bf",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "images/meditations/chakra.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "73154a8554be08e59593559ca27d60b7ee93eee5bc5f8cb76d29b073e189a8fb",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "images/meditations/focus.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "82c3ad93cd4ce20e6df5e246a4f75d2a764b8665762c4a37e37b37bfd34d196d",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "images/meditations/mindfulness.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "45838137c5018a38bb04c5f5ae77f119b153d70db2d82aad0f98cc61bf38f7ba",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "images/meditations/sleep.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "bc46c22e1307ac9c97283096a6651e6a1ec389ed8b3b0f0a821e692ef0b50927",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "images/meditations/stress-relief.jpg": {
+      "source": "unknown",
+      "license": "unknown",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "c748a4d0fb0b97e4096ad09c4f03c82215fbcedcad7580112d6d30dd43078d91",
+      "notes": "Fill in the tool, plan and license. If it was made on a free plan it must be regenerated."
+    },
+    "posts/history-of-meditation.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "667a74e47a1107986d90321b5668cbe80e5c34239b842ea30bd9c7d4e4ba50ff",
+      "notes": "Placeholder text; the researched post replaces it."
+    },
+    "posts/mindfulness-habit.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "e67e3860942cda2e96c148db23b50994ebffe07161d67bfa945713814d18818e",
+      "notes": "Placeholder text; the researched post replaces it."
+    },
+    "posts/power-of-frequencies.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-10-07",
+      "status": "placeholder",
+      "sha256": "64d1d221d4d41b258ad0fa175f0fd15fb418492355415b92ed4f49f16da13b3e",
+      "notes": "Placeholder text; the researched post replaces it."
+    }
+  }
+}

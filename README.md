@@ -25,6 +25,25 @@ Aynı kural sesler için de geçerli: yeni bir ses dosyası eklerken farklı bir
 
 Görseller kartlarda ortadan kırpılır. Meditasyon görselleri kare (en az 900×900 px), ana sayfa banner'ı yaklaşık 2.4:1 oranında olmalı.
 
+## Köken ve lisans
+
+`audio/`, `images/` ve `posts/` altındaki her dosyanın `provenance.json` içinde bir kaydı olmalı: nereden geldiği (`source`), hangi koşullarla kullanılabildiği (`license`), ne zaman üretildiği (`created`), yayına hazır olup olmadığı (`status`: `placeholder` ya da `final`) ve dosyanın `sha256` özeti. Yapay zekâ ile üretilenlerde hangi araç (`tool`) ve hangi plan (`plan`: `paid` ya da `free`) olduğu da yazılır. Ücretsiz planda üretilen görsellerin ticari kullanım hakkı olmayabilir, bu yüzden `free` kayıtlar yayın kontrolünde hata verir.
+
+Yeni dosya eklediğinde ya da bir dosyayı değiştirdiğinde:
+
+```
+python -P tools/check_provenance.py --sync   # yeni dosyalara boş kayıt ekler, değişenlerin özetini yeniler
+```
+
+Sonra `provenance.json` içinde kaydı doldur ve ancak hakkından emin olunca `status` değerini `final` yap. Değişen bir dosya, kaydı gözden geçirilene kadar tekrar `placeholder` olur.
+
+```
+python -P tools/check_provenance.py            # yapı kontrolü; yer tutucuları uyarı olarak listeler
+python -P tools/check_provenance.py --release  # yayına hazır olmayan her şeyde hata verir
+```
+
+Kontrol her pull request'te GitHub Actions ile çalışır. Yayın öncesi `--release` ile çalıştırılır ve sıfır hata vermelidir.
+
 ## Yeni meditasyon ya da blog yazısı ekleme
 
 `meditations` ya da `blogPosts` listesine yeni bir öğe ekle. `id` benzersiz olmalı, küçük harf ve tire kullan (örn. `body-scan`).
