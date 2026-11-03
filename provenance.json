@@ -1,52 +1,76 @@
 {
   "assets": {
-    "audio/meditations/breathing.wav": {
+    "audio/meditations/breath-tide.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "2210f8be26416464b291891ff6b76d7b544eccec7db11d396a6661666716d976",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "2ecccb923d57844a7aca69bba96cddd48176b5a573b9d3e8d8cfab6c91a4cc1b",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/chakra.wav": {
+    "audio/meditations/night-rain.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "0786b8c4184364e3e066945ade484d023aee971df6b449036649fac58e236857",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "7aa2d68260155dea687932ca6f470873481e2b36661bc4142b641d25f685a474",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/focus.wav": {
+    "audio/meditations/one-point.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "dc866c23199f71b6c342eef99df05bb0059f52df461ec198e57550b35441a61a",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "a09c3e5b06f053edbcf70bcd1729b061cebdba35f511974bea36d885efd6d016",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/mindfulness.wav": {
+    "audio/meditations/pink-haze.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "070d66aea8264bc11ab96027ee72768615aa601352d9ec7b6974c2a2449d862f",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "878bed0abb9362735aeb361b8e47368e25a394a71cdd7f580be3d91b05f79f67",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/sleep.wav": {
+    "audio/meditations/shoreline.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "fd9f4cd756cb3af92b23f5f89a3a5d18aa7fe8ceaaa3bdd295808044263aff7e",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "ce190f320f7a83ad6148d69e52ff97623203877384d263e049e7e623d5a0379f",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/stress-relief.wav": {
+    "audio/meditations/singing-bowl.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "37b7c4d4373c7f2239c8e993cec1d8fd580250ba34f9c61397bc74ae883b2d40",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "efc38757194b638e73525a15a5f0d3571f35845aa8c9f4ff06af98b94e8d06ff",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
+    },
+    "audio/meditations/velvet.ogg": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "e78be1d077f6a1876fb256e1cfda094c38064551551c58ff13d33931f4b3982d",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
+    },
+    "audio/meditations/wind-and-chimes.ogg": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "a1f869b99dd0d7df948a9c3ac6233be3f7e64eae93d0c3bbcef4aa120923c5ec",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
     "images/blog/history-of-meditation.jpg": {
       "source": "ai-generated",

@@ -1,77 +1,222 @@
 {
   "home": {
     "banner": "images/home/banner.jpg",
-    "featuredPosts": ["history-of-meditation", "power-of-frequencies"]
+    "featuredPosts": [
+      "history-of-meditation",
+      "power-of-frequencies"
+    ]
   },
   "meditations": [
     {
-      "id": "mindfulness",
-      "label": "farkındalık",
-      "title": "İçsel Dinginlik",
-      "image": "images/meditations/mindfulness.jpg",
-      "audio": "audio/meditations/mindfulness.wav",
-      "description": "Şu ana dön ve düşüncelerini yargılamadan izle."
+      "id": "sleep",
+      "label": {
+        "tr": "Kadife",
+        "en": "Velvet"
+      },
+      "title": {
+        "tr": "Kadife",
+        "en": "Velvet"
+      },
+      "image": "images/meditations/sleep.jpg",
+      "audio": "audio/meditations/velvet.ogg",
+      "description": {
+        "tr": "Yumuşak kahverengi gürültü, altında çok kısık bir akor.",
+        "en": "Soft brown noise over a very quiet chord."
+      }
     },
     {
       "id": "breathing",
-      "label": "nefes",
-      "title": "Hayatın Ritmi",
+      "label": {
+        "tr": "Gelgit",
+        "en": "Tide"
+      },
+      "title": {
+        "tr": "Gelgit",
+        "en": "Tide"
+      },
       "image": "images/meditations/breathing.jpg",
-      "audio": "audio/meditations/breathing.wav",
-      "description": "Nefesinin ritmine eşlik et, bedenin yavaşça sakinleşsin.",
+      "audio": "audio/meditations/breath-tide.ogg",
+      "description": {
+        "tr": "Yirmi dört saniyede bir kabarıp çekilen sıcak bir akor.",
+        "en": "A warm chord that rises and ebbs every twenty-four seconds."
+      },
       "breathing": true
     },
     {
-      "id": "sleep",
-      "label": "uyku",
-      "title": "Akşamın Uyumu",
-      "image": "images/meditations/sleep.jpg",
-      "audio": "audio/meditations/sleep.wav",
-      "description": "Günün yükünü bırak ve uykuya hazırlan."
+      "id": "focus",
+      "label": {
+        "tr": "Tek Nokta",
+        "en": "One Point"
+      },
+      "title": {
+        "tr": "Tek Nokta",
+        "en": "One Point"
+      },
+      "image": "images/meditations/focus.jpg",
+      "audio": "audio/meditations/one-point.ogg",
+      "description": {
+        "tr": "Tek bir re notası, tınısı yavaşça değişir.",
+        "en": "A single held D, its tone shifting slowly."
+      }
+    },
+    {
+      "id": "mindfulness",
+      "label": {
+        "tr": "Ses Kasesi",
+        "en": "Singing Bowl"
+      },
+      "title": {
+        "tr": "Ses Kasesi",
+        "en": "Singing Bowl"
+      },
+      "image": "images/meditations/mindfulness.jpg",
+      "audio": "audio/meditations/singing-bowl.ogg",
+      "description": {
+        "tr": "Yaklaşık yarım dakikada bir vurulan kase, sesi uzayıp söner.",
+        "en": "A bowl struck about every half minute, ringing out into silence."
+      }
     },
     {
       "id": "stress-relief",
-      "label": "stres azaltma",
-      "title": "İç Sığınak",
+      "label": {
+        "tr": "Kıyı",
+        "en": "Shoreline"
+      },
+      "title": {
+        "tr": "Kıyı",
+        "en": "Shoreline"
+      },
       "image": "images/meditations/stress-relief.jpg",
-      "audio": "audio/meditations/stress-relief.wav",
-      "description": "Gerginliği bırak, kendine sakin bir iç alan kur."
-    },
-    {
-      "id": "focus",
-      "label": "odak",
-      "title": "Tek Nokta",
-      "image": "images/meditations/focus.jpg",
-      "audio": "audio/meditations/focus.wav",
-      "description": "Dikkatini tek bir noktada topla."
+      "audio": "audio/meditations/shoreline.ogg",
+      "description": {
+        "tr": "Kabarıp köpüren, sonra geri çekilen dalgalar.",
+        "en": "Waves that build, foam and draw back."
+      }
     },
     {
       "id": "chakra",
-      "label": "çakra",
-      "title": "Enerji Dengesi",
+      "label": {
+        "tr": "Rüzgâr Çanı",
+        "en": "Wind Chimes"
+      },
+      "title": {
+        "tr": "Rüzgâr Çanı",
+        "en": "Wind Chimes"
+      },
       "image": "images/meditations/chakra.jpg",
-      "audio": "audio/meditations/chakra.wav",
-      "description": "Enerji merkezlerine sırayla odaklan ve dengeni bul."
+      "audio": "audio/meditations/wind-and-chimes.ogg",
+      "description": {
+        "tr": "Esen rüzgâr ve arada küçük bir çan sesi.",
+        "en": "Gusting wind with a small chime now and then."
+      }
+    },
+    {
+      "id": "night-rain",
+      "label": {
+        "tr": "Gece Yağmuru",
+        "en": "Night Rain"
+      },
+      "title": {
+        "tr": "Gece Yağmuru",
+        "en": "Night Rain"
+      },
+      "image": "images/meditations/sleep.jpg",
+      "audio": "audio/meditations/night-rain.ogg",
+      "description": {
+        "tr": "Çatıya yağan düzenli yağmur ve uzaktan bir uğultu.",
+        "en": "Steady rain on a roof and a distant low rumble."
+      }
+    },
+    {
+      "id": "pink-haze",
+      "label": {
+        "tr": "Pembe Sis",
+        "en": "Pink Haze"
+      },
+      "title": {
+        "tr": "Pembe Sis",
+        "en": "Pink Haze"
+      },
+      "image": "images/meditations/focus.jpg",
+      "audio": "audio/meditations/pink-haze.ogg",
+      "description": {
+        "tr": "Pembe gürültü: dengeli, yumuşak bir hışırtı.",
+        "en": "Pink noise: an even, soft hiss."
+      }
     }
   ],
   "blogPosts": [
     {
       "id": "history-of-meditation",
-      "title": "Meditasyonun Tarihi: Geçmişten Bugüne",
+      "title": {
+        "tr": "Meditasyonun Tarihi: Geçmişten Bugüne",
+        "en": "The History of Meditation: From the Past to Today"
+      },
       "image": "images/blog/history-of-meditation.jpg",
-      "body": "posts/history-of-meditation.md"
+      "body": {
+        "tr": "posts/history-of-meditation.md",
+        "en": "posts/history-of-meditation.en.md"
+      }
     },
     {
       "id": "mindfulness-habit",
-      "title": "21 Günde Farkındalık Alışkanlığı Planı",
+      "title": {
+        "tr": "21 Günde Farkındalık Alışkanlığı Planı",
+        "en": "A 21-Day Plan for a Mindfulness Habit"
+      },
       "image": "images/blog/mindfulness-habit.jpg",
-      "body": "posts/mindfulness-habit.md"
+      "body": {
+        "tr": "posts/mindfulness-habit.md",
+        "en": "posts/mindfulness-habit.en.md"
+      }
     },
     {
       "id": "power-of-frequencies",
-      "title": "Frekansların Gücü: 432 Hz ve 528 Hz Müzik",
+      "title": {
+        "tr": "Frekansların Gücü: 432 Hz ve 528 Hz Müzik",
+        "en": "The Power of Frequencies: 432 Hz and 528 Hz Music"
+      },
       "image": "images/blog/power-of-frequencies.jpg",
-      "body": "posts/power-of-frequencies.md"
+      "body": {
+        "tr": "posts/power-of-frequencies.md",
+        "en": "posts/power-of-frequencies.en.md"
+      }
+    },
+    {
+      "id": "slow-breathing",
+      "title": {
+        "tr": "Yavaş Nefes: Bilim Ne Diyor?",
+        "en": "Slow Breathing: What Does the Science Say?"
+      },
+      "image": "images/meditations/breathing.jpg",
+      "body": {
+        "tr": "posts/slow-breathing.md",
+        "en": "posts/slow-breathing.en.md"
+      }
+    },
+    {
+      "id": "bedtime-routine",
+      "title": {
+        "tr": "Uyku Öncesi Rutin ve Meditasyon: Ne Kadar Yardımcı?",
+        "en": "Bedtime Routines and Meditation: How Much Do They Help?"
+      },
+      "image": "images/meditations/sleep.jpg",
+      "body": {
+        "tr": "posts/bedtime-routine.md",
+        "en": "posts/bedtime-routine.en.md"
+      }
+    },
+    {
+      "id": "pink-and-white-noise",
+      "title": {
+        "tr": "Pembe ve Beyaz Gürültü: Uykuya Yardım Eder mi?",
+        "en": "Pink and White Noise: Do They Help You Sleep?"
+      },
+      "image": "images/meditations/stress-relief.jpg",
+      "body": {
+        "tr": "posts/pink-and-white-noise.md",
+        "en": "posts/pink-and-white-noise.en.md"
+      }
     }
   ]
 }
