@@ -164,13 +164,21 @@
       "sha256": "e67e3860942cda2e96c148db23b50994ebffe07161d67bfa945713814d18818e",
       "notes": "Placeholder text; the researched post replaces it."
     },
+    "posts/power-of-frequencies.en.md": {
+      "source": "original",
+      "license": "owned",
+      "created": "2026-11-04",
+      "status": "placeholder",
+      "sha256": "dcb6333f8fd64d5cac45e0a05fb4d134f188497e6d2fff3f1ee1e0fc451d2d22",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+    },
     "posts/power-of-frequencies.md": {
       "source": "original",
       "license": "owned",
-      "created": "2026-10-07",
+      "created": "2026-11-04",
       "status": "placeholder",
-      "sha256": "64d1d221d4d41b258ad0fa175f0fd15fb418492355415b92ed4f49f16da13b3e",
-      "notes": "Placeholder text; the researched post replaces it."
+      "sha256": "a23a63aad12c9ecfb9ef415fd8ba5f7f3d9d88c1ac772e709f73ebc44d06e6c1",
+      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
     }
   }
 }
