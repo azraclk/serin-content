@@ -8,14 +8,14 @@ In a randomized study published in *JAMA Internal Medicine* in 2015, 49 people w
 - Insomnia symptoms, depression symptoms and fatigue also improved more in the mindfulness group than in the sleep hygiene group.
 - The authors note that this is a short-term effect, measured right after the training.
 
-The study is small, and the participants were in a particular age group and did not have severe insomnia. So it would not be right to generalize the result to everyone.
+The study is small, and the participants were in a particular age group and had moderate sleep problems. So it would not be right to generalize the result to everyone.
 
 ## The wider picture
 
 A review published in 2019 pooled 18 randomized trials with 1,654 participants. The result has two parts:
 
 - Compared with evidence-based sleep treatments, mindfulness meditation had no added effect on sleep quality. The strength of this evidence was low.
-- Compared with non-specific control interventions, which only give people time and attention, it improved sleep quality with moderate evidence.
+- Compared with control groups that gave people time and attention but no specific treatment, it improved sleep quality with moderate evidence.
 
 The authors call the findings preliminary: meditation may help with some aspects of sleep disturbance, but more research is needed.
 

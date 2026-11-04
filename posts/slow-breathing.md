@@ -1,4 +1,4 @@
-Yavaş nefes, sakinleşmek için en sık önerilen yöntemlerden biri. Bu yazıda bu önerinin arkasında hangi çalışmaların olduğuna ve sınırlarının ne olduğuna bakıyoruz. Kısa cevap: yavaş nefes rahatlatabiliyor, ama kanıt hâlâ sınırlı ve küçük çalışmalara dayanıyor.
+Yavaş nefes, sakinleşmek için sık önerilen yöntemlerden biri. Bu yazıda bu önerinin arkasında hangi çalışmaların olduğuna ve sınırlarının ne olduğuna bakıyoruz. Kısa cevap: yavaş nefes rahatlatabiliyor, ama kanıt hâlâ sınırlı ve küçük çalışmalara dayanıyor.
 
 ## Yavaş nefes bedende ne yapıyor?
 

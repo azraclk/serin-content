@@ -1,52 +1,76 @@
 {
   "assets": {
-    "audio/meditations/breathing.wav": {
+    "audio/meditations/breath-tide.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "2210f8be26416464b291891ff6b76d7b544eccec7db11d396a6661666716d976",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "2ecccb923d57844a7aca69bba96cddd48176b5a573b9d3e8d8cfab6c91a4cc1b",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/chakra.wav": {
+    "audio/meditations/night-rain.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "0786b8c4184364e3e066945ade484d023aee971df6b449036649fac58e236857",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "7aa2d68260155dea687932ca6f470873481e2b36661bc4142b641d25f685a474",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/focus.wav": {
+    "audio/meditations/one-point.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "dc866c23199f71b6c342eef99df05bb0059f52df461ec198e57550b35441a61a",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "a09c3e5b06f053edbcf70bcd1729b061cebdba35f511974bea36d885efd6d016",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/mindfulness.wav": {
+    "audio/meditations/pink-haze.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "070d66aea8264bc11ab96027ee72768615aa601352d9ec7b6974c2a2449d862f",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "878bed0abb9362735aeb361b8e47368e25a394a71cdd7f580be3d91b05f79f67",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/sleep.wav": {
+    "audio/meditations/shoreline.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "fd9f4cd756cb3af92b23f5f89a3a5d18aa7fe8ceaaa3bdd295808044263aff7e",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "ce190f320f7a83ad6148d69e52ff97623203877384d263e049e7e623d5a0379f",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
-    "audio/meditations/stress-relief.wav": {
+    "audio/meditations/singing-bowl.ogg": {
       "source": "generated-code",
       "license": "owned",
-      "created": "2026-10-07",
-      "status": "placeholder",
-      "sha256": "37b7c4d4373c7f2239c8e993cec1d8fd580250ba34f9c61397bc74ae883b2d40",
-      "notes": "30-second test tone from before the synthesized tracks; to be replaced."
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "efc38757194b638e73525a15a5f0d3571f35845aa8c9f4ff06af98b94e8d06ff",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
+    },
+    "audio/meditations/velvet.ogg": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "e78be1d077f6a1876fb256e1cfda094c38064551551c58ff13d33931f4b3982d",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
+    },
+    "audio/meditations/wind-and-chimes.ogg": {
+      "source": "generated-code",
+      "license": "owned",
+      "created": "2026-11-03",
+      "status": "final",
+      "sha256": "a1f869b99dd0d7df948a9c3ac6233be3f7e64eae93d0c3bbcef4aa120923c5ec",
+      "notes": "Synthesized from scratch with numpy; an exactly periodic 4-minute loop. Approved by the owner.",
+      "tool": "tools/audio/synth.py"
     },
     "images/blog/history-of-meditation.jpg": {
       "source": "ai-generated",
@@ -152,97 +176,97 @@
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
-      "sha256": "46f623b0147807d96ddd55a0166d0087af515308e8a87b07f233d1462dd7351f",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "status": "final",
+      "sha256": "7cef17f59737ca773d89d9d48a31c248b4a36138f5895006a9c82acbf30ed1b6",
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/bedtime-routine.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
-      "sha256": "b177d119c774a14e1888ad0ea6d2883c58da932cfccadf165379346f79297613",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "status": "final",
+      "sha256": "9cd7cfdb1b72c6ed1d32ae765bfffe262e347c21388f29fb9364f0c863827a8f",
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/history-of-meditation.en.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
+      "status": "final",
       "sha256": "fee2be612837027934c5b3bf9a2a2dca7cadfa0f10abed66f719cba57df4fdef",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/history-of-meditation.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
+      "status": "final",
       "sha256": "e80b04384347584b32181234d89ffe803f464e45b0194f3f6e9649d957cac361",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/mindfulness-habit.en.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
+      "status": "final",
       "sha256": "e828dd1de850e139e28097ea23ff5bda9f9439b7088fa8f7c7468eecb7d5cf49",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/mindfulness-habit.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
+      "status": "final",
       "sha256": "40bc5a0b08452f8f72415a9b1f6caf8cd8282c9cdd2c74a39d626cdc54eb9572",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/pink-and-white-noise.en.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
-      "sha256": "8925af1a5781c38412b96ba8b8c8b26b5f7ca9fcb8349e7c4f7fbea5dca86150",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "status": "final",
+      "sha256": "d70f9ef16f21f460e319adc273e211d740444e7b092e210075755a77d67790d9",
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/pink-and-white-noise.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
-      "sha256": "478bef6e01ecd6dcee930da4a660958788d576d70f64139d102fbf5a72825212",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "status": "final",
+      "sha256": "2cbcf3ac16bd88701f7f5feffb1b4c6c09d2fbe48f58193d04deadbb893b70e2",
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/power-of-frequencies.en.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
+      "status": "final",
       "sha256": "dcb6333f8fd64d5cac45e0a05fb4d134f188497e6d2fff3f1ee1e0fc451d2d22",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/power-of-frequencies.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
+      "status": "final",
       "sha256": "a23a63aad12c9ecfb9ef415fd8ba5f7f3d9d88c1ac772e709f73ebc44d06e6c1",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/slow-breathing.en.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
-      "sha256": "45a10aed504dbcb92a3f6e8bfc6941c85a30643810269dda686a63b4027f5fd4",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "status": "final",
+      "sha256": "444be36a606e0183361ba30becf712fe1b92c01c3cd8b9e84c40de4d385abc93",
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     },
     "posts/slow-breathing.md": {
       "source": "original",
       "license": "owned",
       "created": "2026-11-04",
-      "status": "placeholder",
-      "sha256": "3060b9869c35857b659bb53a503d65e361d7408ec35c77c35c54c14be267861a",
-      "notes": "Researched draft (Turkish/English). Claims checked against the cited sources; awaiting the owner's review before it is marked final."
+      "status": "final",
+      "sha256": "4859e877e4b4df2a7f3be0671ac2d689b2be97c6a537eb790e878993f74e7cf5",
+      "notes": "Researched text (Turkish/English). Claims checked against the cited sources and approved by the owner on 2026-11-04."
     }
   }
 }

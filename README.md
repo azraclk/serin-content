@@ -9,9 +9,22 @@ Serin uygulamasının içeriği. Uygulama `content.json` dosyasını ve görsell
 - İnternet yoksa uygulama en son indirdiği içeriği gösterir. Hiç indirmemişse kendi içindeki varsayılan görselleri gösterir.
 - GitHub dosyaları yaklaşık 5 dakika önbellekte tuttuğu için değişikliklerin görünmesi birkaç dakika sürebilir.
 
-## Şimdiki içerik örnektir
+## Diller
 
-Görseller, başlıklar, `audio/` klasöründeki sesler ve `posts/` klasöründeki yazılar gerçek içerik değil, yer tutucu. Sesler uygulamayı test etmek için üretilmiş 30 saniyelik basit tonlardır.
+İçerik Türkçe ve İngilizce yazılır. Uygulama telefonun diline göre birini seçer; başka bir dilde İngilizce gösterir. `label`, `title`, `description` ve blog yazısının `body` alanı iki biçimde yazılabilir:
+
+```json
+"title": { "tr": "Kadife", "en": "Velvet" }
+"body": { "tr": "posts/slow-breathing.md", "en": "posts/slow-breathing.en.md" }
+```
+
+Düz bir metin yazarsan her dilde aynı görünür. İstenen dil yoksa İngilizce, o da yoksa elindeki dil kullanılır. Görsel ve ses bütün diller için ortaktır.
+
+**Bu biçim için uygulamanın "içeriği telefon dilinde oku" sürümü gerekir.** Eski bir sürüm `{ "tr": ..., "en": ... }` alanını okuyamaz ve içeriği yok sayar.
+
+## Şimdiki içerik
+
+Sesler `tools/audio/synth.py` ile sıfırdan üretilmiş 4 dakikalık döngülerdir (OGG). Her biri tam periyodik olduğu için uygulama seçilen süre boyunca dikişsiz tekrarlar. Görseller ve blog yazıları hakkında durum `provenance.json` içinde: yer tutucu olanlar yayın öncesi değiştirilmelidir.
 
 ## Görsel değiştirme
 
@@ -48,7 +61,7 @@ Kontrol her pull request'te GitHub Actions ile çalışır. Yayın öncesi `--re
 
 `meditations` ya da `blogPosts` listesine yeni bir öğe ekle. `id` benzersiz olmalı, küçük harf ve tire kullan (örn. `body-scan`).
 
-- **Meditasyon:** `label` kartın üstündeki kısa yazı, `title` detay ekranındaki başlık, `audio` play butonuyla çalan ses (MP3, M4A ya da WAV). `audio` yazılmazsa play butonu pasif görünür.
+- **Meditasyon:** `label` kartın üstündeki kısa yazı, `title` detay ekranındaki başlık, `audio` play butonuyla çalan ses (OGG, MP3, M4A ya da WAV). `audio` yazılmazsa play butonu pasif görünür.
   - `description` (isteğe bağlı): başlığın altında görünen kısa açıklama, en çok iki satır. Hem detay ekranında hem ana sayfadaki öneri kartında çıkar. Yazılmazsa hiçbir şey gösterilmez.
   - `breathing` (isteğe bağlı): `true` ise meditasyonda nefes ritmi seçici (Sakin, 4-7-8, Kutu) gösterilir. Yalnızca nefes meditasyonu için kullan.
 - **Blog:** `title` kartta görünen başlık.
@@ -56,7 +69,7 @@ Kontrol her pull request'te GitHub Actions ile çalışır. Yayın öncesi `--re
 
 ## Blog yazısı yazma
 
-Her yazı `posts/` klasöründe bir Markdown dosyasıdır ve `content.json` içinde ilgili yazının `body` alanından bağlanır (örn. `"body": "posts/body-scan.md"`). `body` yazılmazsa uygulama "This post is coming soon." gösterir.
+Her yazı `posts/` klasöründe bir Markdown dosyasıdır ve `content.json` içinde ilgili yazının `body` alanından bağlanır. İki dilli yazarken her dil için ayrı dosya yaz: `posts/body-scan.md` Türkçe, `posts/body-scan.en.md` İngilizce (örn. `"body": { "tr": "posts/body-scan.md", "en": "posts/body-scan.en.md" }`). `body` yazılmazsa uygulama "This post is coming soon." gösterir.
 
 Başlık ve görsel `content.json`'dan gelir, dosyaya tekrar yazma. Desteklenen biçimler:
 

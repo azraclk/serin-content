@@ -6,22 +6,22 @@ Uyumadan önce meditasyon yapmak ya da bir rutin oluşturmak sık önerilir. Bu 
 
 - Uyku kalitesi puanı farkındalık grubunda ortalama 10,2'den 7,4'e, uyku hijyeni grubunda 10,2'den 9,1'e geldi. Gruplar arasındaki fark 1,8 puandı.
 - Farkındalık grubunda uykusuzluk belirtileri, depresyon belirtileri ve yorgunluk da uyku hijyeni grubuna göre daha fazla iyileşti.
-- Yazarlar etkinin eğitimin hemen sonrasındaki kısa vadeli etki olduğunu belirtiyor.
+- Yazarlar bunun eğitimin hemen sonrasında ölçülen, kısa vadeli bir etki olduğunu belirtiyor.
 
-Çalışma küçük, katılımcılar belirli bir yaş grubunda ve ağır uykusuzluğu olmayanlar. Bu yüzden sonucu herkese genellemek doğru olmaz.
+Çalışma küçük; katılımcılar belirli bir yaş grubunda ve uyku sorunları orta düzeydeydi. Bu yüzden sonucu herkese genellemek doğru olmaz.
 
 ## Daha geniş resim
 
 2019'da yayımlanan bir derleme, 1.654 katılımcılı 18 randomize çalışmayı birleştirdi. Sonuç iki parçalı:
 
 - Kanıta dayalı uyku tedavileriyle karşılaştırıldığında farkındalık meditasyonunun uyku kalitesine ek bir etkisi yoktu. Bu sonucun kanıt gücü düşüktü.
-- Sadece zaman ve ilgi karşılığı veren, özel olmayan karşı müdahalelerle karşılaştırıldığında ise orta düzeyde kanıtla uyku kalitesini iyileştirdi.
+- Zaman ve ilgi sağlayan ama özel bir tedavi içermeyen karşılaştırma gruplarıyla kıyaslandığında ise orta düzeyde kanıtla uyku kalitesini iyileştirdi.
 
 Yazarlar bulguları "ön" olarak niteliyor: meditasyon uyku bozukluğunun bazı yönlerinde işe yarayabilir, ama daha fazla araştırma gerekiyor.
 
 ## Peki "uyku hijyeni" yeterli mi?
 
-Uyku hijyeni, yani kafeini azaltmak, düzenli saatlerde yatmak, gürültüden kaçınmak gibi öneriler genelde işe yarayacakmış gibi duyulur. 2015'te yayımlanan bir derleme, bu önerilerin tek tek uykuyla ilişkili olduğunu ama doğrudan etkilerinin genel nüfusta büyük oranda test edilmemiş olduğunu söylüyor. Yani bu önerilerin tek başına ne kadar işe yaradığı çoğunlukla belli değil.
+Uyku hijyeni, yani kafeini azaltmak, düzenli saatlerde yatmak, gürültüden kaçınmak gibi öneriler genelde işe yarayacak gibi görünür. 2015'te yayımlanan bir derleme, bu önerilerin tek tek uykuyla ilişkili olduğunu ama doğrudan etkilerinin genel nüfusta büyük oranda test edilmemiş olduğunu söylüyor. Yani bu önerilerin tek başına ne kadar işe yaradığı çoğunlukla belli değil.
 
 ## Gerçekçi bir akşam rutini
 
