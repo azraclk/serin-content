@@ -1,4 +1,4 @@
-Slow breathing is one of the most commonly suggested ways to calm down. This post looks at which studies are behind the advice and where its limits are. The short version: slow breathing can help you relax, but the evidence is still limited and rests on small studies.
+Slow breathing is one of the commonly suggested ways to calm down. This post looks at which studies are behind the advice and where its limits are. The short version: slow breathing can help you relax, but the evidence is still limited and rests on small studies.
 
 ## What does slow breathing do in the body?
 

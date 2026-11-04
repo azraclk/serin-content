@@ -9,7 +9,7 @@ In white noise all frequencies have roughly equal power, so it sounds high and "
 A systematic review published in *Sleep Medicine Reviews* in 2021 assessed 38 articles on the relationship between continuous white noise, or similar broadband noise, and sleep.
 
 - The findings varied widely: in some studies continuous noise improved sleep and in others it disrupted it.
-- The authors say this is largely because the studies differed so much from each other: in the type of noise, how sleep was measured and the comparison conditions.
+- The authors suggest this may be because the studies differed so much from each other: in the type of noise, how sleep was measured and the comparison conditions.
 - By the GRADE criteria, the quality of the evidence that continuous noise improves sleep was very low. The authors note that this contradicts its widespread use.
 - Because noise may also affect sleep and hearing negatively, they say more research with objective measures is needed before continuous noise is promoted as a sleep aid.
 
@@ -19,7 +19,7 @@ The review left out studies of noise played in short bursts during sleep to stre
 
 A continuous sound may relax some people, or make outside noises less distracting. But we do not have solid evidence to say it "improves sleep". The only way to find out whether it works for you is to try it.
 
-One suggestion: keep the volume low and be cautious. The authors of the review note that continuous noise may negatively affect hearing.
+One suggestion: keep the volume low. The authors of the review note that continuous noise may negatively affect hearing.
 
 ## In Serin
 
