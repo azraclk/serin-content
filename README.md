@@ -91,3 +91,7 @@ Paragraflar arasında bir boş satır bırak.
 Tablo, görsel ve alıntı bloğu (`>`) desteklenmez; düz metin olarak görünür. Bir yazıyı güncellemek için dosyayı değiştirmen yeterli, ad değiştirmene gerek yok.
 
 JSON'da bir virgül ya da tırnak hatası olursa uygulama dosyayı yok sayar ve bir önceki içeriği göstermeye devam eder. Göndermeden önce [jsonlint.com](https://jsonlint.com) ile kontrol edebilirsin.
+
+## Gizlilik politikası
+
+`docs/index.html` uygulamanın gizlilik politikasıdır (tr + en, tek sayfa). GitHub Pages `main` dalının `/docs` klasöründen yayınlar: https://azraclk.github.io/serin-content/. Uygulama bir veri toplamaya ya da yeni bir izin istemeye başlarsa bu sayfayı da güncelle.
