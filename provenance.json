@@ -131,72 +131,72 @@
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "9d5cf5a63bfc3cdabae9fca798d977ffde1eff45102e36ec746245a40e47d1c2",
-      "notes": "Drawn entirely by tools/images/card_visuals.py on a 128x128 pixel grid scaled 8x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (Claude Code); the owner chose to make every image by code.",
-      "tool": "tools/images/card_visuals.py (Python, Pillow, NumPy; reuses tools/images/blog_visuals.py)"
+      "sha256": "a5af2affc754d54040614434f1fedd45855dda756013290f07226e68671cb891",
+      "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to a 1024x1024 PNG with rsvg-convert and given a grain texture; no image model made these pixels. The PNGs were produced by the owner's own run of the script; the maintainer tooling did not re-run it (rsvg-convert is not installed there), so byte-for-byte reproducibility is unchecked. The script was written with Claude (claude.ai web, per the owner). Owner-approved 2026-11-05.",
+      "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with rsvg-convert), converted to lossless WebP by tools/images/pngs_to_webp.py"
     },
     "images/meditations/one-point.webp": {
       "source": "generated-code",
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "cf0a2ec156707975030629f7e5936b5cd57825494f9005a28f2c084d6c7c7e7b",
-      "notes": "Drawn entirely by tools/images/card_visuals.py on a 128x128 pixel grid scaled 8x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (Claude Code); the owner chose to make every image by code.",
-      "tool": "tools/images/card_visuals.py (Python, Pillow, NumPy; reuses tools/images/blog_visuals.py)"
+      "sha256": "2099f66b8a63fbcb9edd766c8e7f49379f144652de7f77da44ffb7db97a23485",
+      "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to a 1024x1024 PNG with rsvg-convert and given a grain texture; no image model made these pixels. The PNGs were produced by the owner's own run of the script; the maintainer tooling did not re-run it (rsvg-convert is not installed there), so byte-for-byte reproducibility is unchecked. The script was written with Claude (claude.ai web, per the owner). Owner-approved 2026-11-05.",
+      "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with rsvg-convert), converted to lossless WebP by tools/images/pngs_to_webp.py"
     },
     "images/meditations/pink-haze.webp": {
       "source": "generated-code",
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "a5852a0cfb389c55d722c1e30787666d1f58356b5d6aab706e594c0810234768",
-      "notes": "Drawn entirely by tools/images/card_visuals.py on a 128x128 pixel grid scaled 8x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (Claude Code); the owner chose to make every image by code.",
-      "tool": "tools/images/card_visuals.py (Python, Pillow, NumPy; reuses tools/images/blog_visuals.py)"
+      "sha256": "c0a700a16059abde1c8f7c42eac05a9eeee0ddcaa83364c54783ef7ca7e6a2d3",
+      "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to a 1024x1024 PNG with rsvg-convert and given a grain texture; no image model made these pixels. The PNGs were produced by the owner's own run of the script; the maintainer tooling did not re-run it (rsvg-convert is not installed there), so byte-for-byte reproducibility is unchecked. The script was written with Claude (claude.ai web, per the owner). Owner-approved 2026-11-05.",
+      "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with rsvg-convert), converted to lossless WebP by tools/images/pngs_to_webp.py"
     },
     "images/meditations/shoreline.webp": {
       "source": "generated-code",
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "ab98bd02a6ae2622825de14e64c6937b06e91c1e253ea325942faea91c3fd437",
-      "notes": "Drawn entirely by tools/images/card_visuals.py on a 128x128 pixel grid scaled 8x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (Claude Code); the owner chose to make every image by code.",
-      "tool": "tools/images/card_visuals.py (Python, Pillow, NumPy; reuses tools/images/blog_visuals.py)"
+      "sha256": "45fa16c60e04009f17ad92373ea25d879cc2ddae1c8f5c815b50d085f99cbf44",
+      "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to a 1024x1024 PNG with rsvg-convert and given a grain texture; no image model made these pixels. The PNGs were produced by the owner's own run of the script; the maintainer tooling did not re-run it (rsvg-convert is not installed there), so byte-for-byte reproducibility is unchecked. The script was written with Claude (claude.ai web, per the owner). Owner-approved 2026-11-05.",
+      "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with rsvg-convert), converted to lossless WebP by tools/images/pngs_to_webp.py"
     },
     "images/meditations/singing-bowl.webp": {
       "source": "generated-code",
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "0bddc6ceb04a29fb144d4e0aadbac8f7094ff4542f32c5510fc428614c86ec39",
-      "notes": "Drawn entirely by tools/images/card_visuals.py on a 128x128 pixel grid scaled 8x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (Claude Code); the owner chose to make every image by code.",
-      "tool": "tools/images/card_visuals.py (Python, Pillow, NumPy; reuses tools/images/blog_visuals.py)"
+      "sha256": "d6d5cfe0978e5838fa77b02422eda1e5d44808f5b093a584995f6cf0ae7de128",
+      "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to a 1024x1024 PNG with rsvg-convert and given a grain texture; no image model made these pixels. The PNGs were produced by the owner's own run of the script; the maintainer tooling did not re-run it (rsvg-convert is not installed there), so byte-for-byte reproducibility is unchecked. The script was written with Claude (claude.ai web, per the owner). Owner-approved 2026-11-05.",
+      "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with rsvg-convert), converted to lossless WebP by tools/images/pngs_to_webp.py"
     },
     "images/meditations/tide.webp": {
       "source": "generated-code",
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "56587a65e2e9a3441699023f2863ffee913274e74398cd15821211f11853c086",
-      "notes": "Drawn entirely by tools/images/card_visuals.py on a 128x128 pixel grid scaled 8x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (Claude Code); the owner chose to make every image by code.",
-      "tool": "tools/images/card_visuals.py (Python, Pillow, NumPy; reuses tools/images/blog_visuals.py)"
+      "sha256": "4841a7eae18a9348ac8189d5487920f5eff2205213abdaceee52b704264758bb",
+      "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to a 1024x1024 PNG with rsvg-convert and given a grain texture; no image model made these pixels. The PNGs were produced by the owner's own run of the script; the maintainer tooling did not re-run it (rsvg-convert is not installed there), so byte-for-byte reproducibility is unchecked. The script was written with Claude (claude.ai web, per the owner). Owner-approved 2026-11-05.",
+      "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with rsvg-convert), converted to lossless WebP by tools/images/pngs_to_webp.py"
     },
     "images/meditations/velvet.webp": {
       "source": "generated-code",
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "bb0da0d4f649059736eb7c2054976bc5d23d4942580ef74c0226f54965ca2b39",
-      "notes": "Drawn entirely by tools/images/card_visuals.py on a 128x128 pixel grid scaled 8x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (Claude Code); the owner chose to make every image by code.",
-      "tool": "tools/images/card_visuals.py (Python, Pillow, NumPy; reuses tools/images/blog_visuals.py)"
+      "sha256": "9e735fe4861d2171a4f1e59bf69b0918cd24a9535a90c009399f40b2d238921e",
+      "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to a 1024x1024 PNG with rsvg-convert and given a grain texture; no image model made these pixels. The PNGs were produced by the owner's own run of the script; the maintainer tooling did not re-run it (rsvg-convert is not installed there), so byte-for-byte reproducibility is unchecked. The script was written with Claude (claude.ai web, per the owner). Owner-approved 2026-11-05.",
+      "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with rsvg-convert), converted to lossless WebP by tools/images/pngs_to_webp.py"
     },
     "images/meditations/wind-chimes.webp": {
       "source": "generated-code",
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "60f113cc01be90f9527c7fb3b0906bc12c46cfe629668599d6e4b29d96c95c43",
-      "notes": "Drawn entirely by tools/images/card_visuals.py on a 128x128 pixel grid scaled 8x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (Claude Code); the owner chose to make every image by code.",
-      "tool": "tools/images/card_visuals.py (Python, Pillow, NumPy; reuses tools/images/blog_visuals.py)"
+      "sha256": "c1571dcca388028940b45ca1ed32784a21a7f43832dd7562741e0863fb4e6438",
+      "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to a 1024x1024 PNG with rsvg-convert and given a grain texture; no image model made these pixels. The PNGs were produced by the owner's own run of the script; the maintainer tooling did not re-run it (rsvg-convert is not installed there), so byte-for-byte reproducibility is unchecked. The script was written with Claude (claude.ai web, per the owner). Owner-approved 2026-11-05.",
+      "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with rsvg-convert), converted to lossless WebP by tools/images/pngs_to_webp.py"
     },
     "posts/bedtime-routine.en.md": {
       "source": "original",
