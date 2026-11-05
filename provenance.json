@@ -73,64 +73,58 @@
       "tool": "tools/audio/synth.py"
     },
     "images/blog/bedtime-routine.webp": {
-      "source": "ai-generated",
-      "license": "owned (Anthropic Consumer Terms: Anthropic assigns its rights in Outputs to the user)",
+      "source": "generated-code",
+      "license": "owned",
       "created": "2026-11-04",
       "status": "final",
       "sha256": "377c32363902010daf4ab17ea41ebc955f534ea65e973e8c0af82cbbbd133617",
-      "notes": "Pixel-art illustration made with Claude on claude.ai on a paid plan, owner-approved 2026-11-04. Terms checked 2026-11-04 (effective 2025-10-08): outputs are assigned to the user, no free/paid distinction.",
-      "tool": "Claude (claude.ai web)",
-      "plan": "paid"
+      "notes": "Drawn entirely by tools/images/blog_visuals.py on a 160x80 pixel grid scaled 10x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (claude.ai); the owner approved the result.",
+      "tool": "tools/images/blog_visuals.py (Python, Pillow, NumPy)"
     },
     "images/blog/history-of-meditation.webp": {
-      "source": "ai-generated",
-      "license": "owned (Anthropic Consumer Terms: Anthropic assigns its rights in Outputs to the user)",
+      "source": "generated-code",
+      "license": "owned",
       "created": "2026-11-04",
       "status": "final",
       "sha256": "0dd9a0a85fe726faa218c204a686e139896550416b1fe9c00f8e2ff81c803c37",
-      "notes": "Pixel-art illustration made with Claude on claude.ai on a paid plan, owner-approved 2026-11-04. Terms checked 2026-11-04 (effective 2025-10-08): outputs are assigned to the user, no free/paid distinction.",
-      "tool": "Claude (claude.ai web)",
-      "plan": "paid"
+      "notes": "Drawn entirely by tools/images/blog_visuals.py on a 160x80 pixel grid scaled 10x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (claude.ai); the owner approved the result.",
+      "tool": "tools/images/blog_visuals.py (Python, Pillow, NumPy)"
     },
     "images/blog/mindfulness-habit.webp": {
-      "source": "ai-generated",
-      "license": "owned (Anthropic Consumer Terms: Anthropic assigns its rights in Outputs to the user)",
+      "source": "generated-code",
+      "license": "owned",
       "created": "2026-11-04",
       "status": "final",
       "sha256": "049b4fcd869b0b92dc68ab4f2b40bfbd7b028f71344e2878952f85fb5bfb8d8c",
-      "notes": "Pixel-art illustration made with Claude on claude.ai on a paid plan, owner-approved 2026-11-04. Terms checked 2026-11-04 (effective 2025-10-08): outputs are assigned to the user, no free/paid distinction.",
-      "tool": "Claude (claude.ai web)",
-      "plan": "paid"
+      "notes": "Drawn entirely by tools/images/blog_visuals.py on a 160x80 pixel grid scaled 10x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (claude.ai); the owner approved the result.",
+      "tool": "tools/images/blog_visuals.py (Python, Pillow, NumPy)"
     },
     "images/blog/pink-and-white-noise.webp": {
-      "source": "ai-generated",
-      "license": "owned (Anthropic Consumer Terms: Anthropic assigns its rights in Outputs to the user)",
+      "source": "generated-code",
+      "license": "owned",
       "created": "2026-11-04",
       "status": "final",
       "sha256": "d1f04adac4ff73e5e35e9868033252e77e3e08eeac9f1f630b7ee38b5822eb2d",
-      "notes": "Pixel-art illustration made with Claude on claude.ai on a paid plan, owner-approved 2026-11-04. Terms checked 2026-11-04 (effective 2025-10-08): outputs are assigned to the user, no free/paid distinction.",
-      "tool": "Claude (claude.ai web)",
-      "plan": "paid"
+      "notes": "Drawn entirely by tools/images/blog_visuals.py on a 160x80 pixel grid scaled 10x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (claude.ai); the owner approved the result.",
+      "tool": "tools/images/blog_visuals.py (Python, Pillow, NumPy)"
     },
     "images/blog/power-of-frequencies.webp": {
-      "source": "ai-generated",
-      "license": "owned (Anthropic Consumer Terms: Anthropic assigns its rights in Outputs to the user)",
+      "source": "generated-code",
+      "license": "owned",
       "created": "2026-11-04",
       "status": "final",
       "sha256": "4c8bcd038b600d95d0fc9c781dc4ca748c643dec062478b92cf0280babe19020",
-      "notes": "Pixel-art illustration made with Claude on claude.ai on a paid plan, owner-approved 2026-11-04. Terms checked 2026-11-04 (effective 2025-10-08): outputs are assigned to the user, no free/paid distinction.",
-      "tool": "Claude (claude.ai web)",
-      "plan": "paid"
+      "notes": "Drawn entirely by tools/images/blog_visuals.py on a 160x80 pixel grid scaled 10x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (claude.ai); the owner approved the result.",
+      "tool": "tools/images/blog_visuals.py (Python, Pillow, NumPy)"
     },
     "images/blog/slow-breathing.webp": {
-      "source": "ai-generated",
-      "license": "owned (Anthropic Consumer Terms: Anthropic assigns its rights in Outputs to the user)",
+      "source": "generated-code",
+      "license": "owned",
       "created": "2026-11-04",
       "status": "final",
       "sha256": "b4e8b83c57953500989d9e0eaa1dac457cfa39b24fd4c0c2a99eb92acbd20b52",
-      "notes": "Pixel-art illustration made with Claude on claude.ai on a paid plan, owner-approved 2026-11-04. Terms checked 2026-11-04 (effective 2025-10-08): outputs are assigned to the user, no free/paid distinction.",
-      "tool": "Claude (claude.ai web)",
-      "plan": "paid"
+      "notes": "Drawn entirely by tools/images/blog_visuals.py on a 160x80 pixel grid scaled 10x; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (claude.ai); the owner approved the result.",
+      "tool": "tools/images/blog_visuals.py (Python, Pillow, NumPy)"
     },
     "images/home/banner.jpg": {
       "source": "ai-generated",
