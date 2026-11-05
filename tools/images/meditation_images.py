@@ -127,14 +127,18 @@ b += f'<path d="M300 820 C400 800 624 800 724 820" stroke="{K}" stroke-width="{S
 b += f'<circle cx="512" cy="820" r="16" fill="{L1}" stroke="{K}" stroke-width="{SW*0.6}"/>'
 scenes["velvet"] = svg(b, defs)
 
-# 2. tide — the moon pulling curling waves
-defs = radial("g", [(0, W), (0.25, L1), (1, D)], cy="18%", r="85%")
-b = f'<rect width="1024" height="1024" fill="url(#g)"/>' + stars(160, (0, 0, 1024, 520), 12)
-b += f'<circle cx="512" cy="200" r="120" fill="{W}" stroke="{K}" stroke-width="{SW}"/>'
-b += f'<circle cx="470" cy="175" r="18" fill="{L1}"/><circle cx="555" cy="235" r="12" fill="{L1}"/>'
-for rr in (165, 215):
-    b += f'<circle cx="512" cy="200" r="{rr}" fill="none" stroke="{W}" stroke-width="7" stroke-dasharray="4 22"/>'
-bands = [(470, 40, 0.0, L1), (580, 46, 1.3, L2), (700, 52, 2.4, L3), (830, 58, 0.7, D)]
+# 2. tide — a tide gauge standing in the rising and ebbing water
+defs = linear("g", [(0, L3), (0.55, L1), (0.8, W)]) + linear("post", [(0, L2), (1, L3)], vertical=False)
+b = f'<rect width="1024" height="1024" fill="url(#g)"/>' + stars(90, (0, 0, 1024, 420), 12)
+for y in (330, 500):
+    b += f'<path d="M150 {y} L874 {y}" stroke="{W}" stroke-width="7" fill="none" stroke-dasharray="4 22" stroke-linecap="round"/>'
+b += f'<rect x="478" y="250" width="68" height="660" rx="14" fill="url(#post)" stroke="{K}" stroke-width="{SW}"/>'
+for i, y in enumerate(range(290, 600, 40)):
+    w = 34 if i % 2 == 0 else 20
+    b += f'<path d="M478 {y} L{478+w} {y}" stroke="{K}" stroke-width="6"/>'
+b += f'<path d="M690 350 L690 480 M662 380 L690 346 L718 380 M662 450 L690 484 L718 450" stroke="{K}" stroke-width="12" fill="none"/>'
+b += sparkle(300, 240, 22) + sparkle(780, 230, 24) + sparkle(200, 420, 14) + sparkle(860, 420, 16)
+bands = [(600, 40, 0.0, L1), (700, 46, 1.3, L2), (800, 52, 2.4, L3), (900, 58, 0.7, D)]
 for y, A, ph, fill in bands:
     pts = [(x, y + A * math.sin(x / 1024 * 2 * math.pi * 2 + ph)) for x in range(-20, 1050, 6)]
     d = f"M-20 1060 " + " ".join(f"L{x} {yy:.1f}" for x, yy in pts) + " L1050 1060Z"
@@ -306,22 +310,25 @@ for i in range(9):
         b += f'<path d="M{x-25} {y} L{x} {y+26} L{x+25} {y}" stroke="{L2}" stroke-width="8" fill="none"/>'
 scenes["night_rain"] = svg(b, defs)
 
-# 5. pink-haze — layered misty pink hills under a soft sun
-defs = (linear("g", [(0, P3), (0.45, P1), (0.7, W)]) + radial("sun", [(0, W), (0.7, "#fff1f6"), (1, P1)]))
-b = f'<rect width="1024" height="1024" fill="url(#g)"/>' + stars(150, (0, 0, 1024, 500), 49)
-b += rays(512, 430, 16, 200, 320, 20, W, opacity=0.9)
-b += f'<circle cx="512" cy="430" r="150" fill="url(#sun)" stroke="{K}" stroke-width="{SW}"/>'
-for sx, sy, s in [(170, 170, 24), (860, 190, 22), (512, 80, 16), (120, 420, 14), (900, 420, 16)]:
-    b += sparkle(sx, sy, s)
-b += cloud([(150, 300, 48), (208, 280, 60), (270, 302, 44)], W, (112, 302, 200, 44))
-b += cloud([(760, 330, 42), (816, 310, 56), (876, 332, 40)], P1, (726, 332, 186, 40))
+# 5. pink-haze — layered pink hills dissolving into a soft mist
+defs = (linear("g", [(0, P3), (0.45, P1), (0.7, W)]) +
+        '<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>'
+        '<stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>')
+b = f'<rect width="1024" height="1024" fill="url(#g)"/>'
+b += f'<circle cx="512" cy="560" r="400" fill="url(#glow)"/>'
+r = random.Random(49)
+for _ in range(190):
+    b += (f'<circle cx="{r.uniform(0, 1024):.0f}" cy="{r.uniform(40, 640):.0f}" r="{r.choice([2, 3, 3, 4, 6, 9])}" '
+          f'fill="{r.choice([W, W, P1, P2])}" opacity="{r.uniform(0.5, 0.95):.2f}"/>')
+for sx, sy, s_ in [(170, 170, 24), (860, 190, 22), (512, 90, 16), (120, 420, 14), (900, 420, 16)]:
+    b += sparkle(sx, sy, s_)
 layers = [(560, 60, 0.4, P1), (650, 70, 1.6, P2), (750, 60, 2.6, "#d996c0"), (850, 55, 0.9, P3), (950, 45, 2.0, L3)]
 for i, (y, A, ph, fill) in enumerate(layers):
     pts = [(x, y + A * math.sin(x / 1024 * 2 * math.pi * 1.3 + ph)) for x in range(-20, 1050, 8)]
     d = "M-20 1060 " + " ".join(f"L{x} {yy:.1f}" for x, yy in pts) + " L1050 1060Z"
     b += f'<path d="{d}" fill="{fill}" stroke="{K}" stroke-width="{SW}"/>'
     mist = " ".join(f"L{x} {yy+28:.1f}" for x, yy in pts)
-    b += f'<path d="M-20 {pts[0][1]+28:.1f} {mist}" stroke="{W}" stroke-width="16" fill="none" opacity="0.55"/>'
+    b += f'<path d="M-20 {pts[0][1]+28:.1f} {mist}" stroke="{W}" stroke-width="22" fill="none" opacity="0.6"/>'
 r = random.Random(50)
 for x in range(40, 1024, 90):
     b += tulip(x + r.uniform(-15, 15), 975 + r.uniform(-8, 8), 0.85, r.choice([P1, W, P2]))

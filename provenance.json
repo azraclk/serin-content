@@ -149,7 +149,7 @@
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "5e40d94f087d0ce5a7a6da5e3f649f536e8e6fb047d1f2c2186745e522ba81c8",
+      "sha256": "8a2c7cb7cef45a575d8d9c2fd94fdbf54197b994dcbcb03af9dff212b0bf910f",
       "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to 1024x1024 with resvg-py and given a grain texture; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (claude.ai web, per the owner); owner-approved 2026-11-05.",
       "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with resvg-py)"
     },
@@ -176,7 +176,7 @@
       "license": "owned",
       "created": "2026-11-05",
       "status": "final",
-      "sha256": "0eda6112bdbfec9a70f484cb07cb39f0421226d214a485a1e59b3e7774e1873d",
+      "sha256": "6bbec67999371c87d244466608cc56ba03d11d221482b1f18fd15f7c3a03276c",
       "notes": "Drawn by tools/images/meditation_images.py: each scene is written as SVG, rendered to 1024x1024 with resvg-py and given a grain texture; no image model made these pixels. Re-running the script reproduces the file byte for byte (checked 2026-11-05). The script was written with Claude (claude.ai web, per the owner); owner-approved 2026-11-05.",
       "tool": "tools/images/meditation_images.py (Python, NumPy, Pillow; SVG rendered with resvg-py)"
     },
