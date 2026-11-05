@@ -5,7 +5,7 @@ Serin uygulamasının içeriği. Uygulama `content.json` dosyasını ve görsell
 ## Nasıl çalışır
 
 - Uygulama her açılışta `content.json` dosyasını indirir ve son başarılı sürümü telefonda saklar.
-- `image` alanları bu repodaki dosya yollarıdır (örn. `images/meditations/sleep.jpg`).
+- `image` alanları bu repodaki dosya yollarıdır (örn. `images/meditations/velvet.webp`).
 - İnternet yoksa uygulama en son indirdiği içeriği gösterir. Hiç indirmemişse kendi içindeki varsayılan görselleri gösterir.
 - GitHub dosyaları yaklaşık 5 dakika önbellekte tuttuğu için değişikliklerin görünmesi birkaç dakika sürebilir.
 
@@ -24,19 +24,19 @@ Düz bir metin yazarsan her dilde aynı görünür. İstenen dil yoksa İngilizc
 
 ## Şimdiki içerik
 
-Sesler `tools/audio/synth.py` ile sıfırdan üretilmiş 4 dakikalık döngülerdir (OGG). Her biri tam periyodik olduğu için uygulama seçilen süre boyunca dikişsiz tekrarlar. Görseller ve blog yazıları hakkında durum `provenance.json` içinde: yer tutucu olanlar yayın öncesi değiştirilmelidir.
+Sesler `tools/audio/synth.py` ile sıfırdan üretilmiş 4 dakikalık döngülerdir (OGG). Her biri tam periyodik olduğu için uygulama seçilen süre boyunca dikişsiz tekrarlar. Görseller `tools/images/` altındaki betiklerle kodla çizilir (aşağıda). Her dosyanın durumu `provenance.json` içindedir; `placeholder` olan varsa yayın öncesi çözülmelidir.
 
 ## Görsel değiştirme
 
 Uygulama indirdiği görselleri **dosya adına göre** önbellekte saklar. Aynı adla yeni bir görsel yüklersen telefonlar eskisini göstermeye devam eder. Bu yüzden:
 
-1. Yeni görseli **farklı bir adla** ekle (örn. `images/meditations/sleep-2.jpg`).
+1. Yeni görseli **farklı bir adla** ekle (örn. `images/meditations/velvet-2.webp`).
 2. `content.json` içinde ilgili `image` alanını bu yeni adla güncelle.
 3. İstersen eski dosyayı sil.
 
 Aynı kural sesler için de geçerli: yeni bir ses dosyası eklerken farklı bir ad kullan ve `audio` alanını güncelle.
 
-Görseller kartlarda ortadan kırpılır. Meditasyon görselleri kare (en az 900×900 px), ana sayfa banner'ı yaklaşık 2.4:1 oranında olmalı.
+Görseller kartlarda ortadan kırpılır. Meditasyon görselleri kare (1024×1024), blog görselleri 2:1 (1600×800) olmalı; konu ortada kalmalı.
 
 ## Köken ve lisans
 
@@ -65,7 +65,7 @@ Kontrol her pull request'te GitHub Actions ile çalışır. Yayın öncesi `--re
   - `description` (isteğe bağlı): başlığın altında görünen kısa açıklama, en çok iki satır. Hem detay ekranında hem ana sayfadaki öneri kartında çıkar. Yazılmazsa hiçbir şey gösterilmez.
   - `breathing` (isteğe bağlı): `true` ise meditasyonda nefes ritmi seçici (Sakin, 4-7-8, Kutu) gösterilir. Yalnızca nefes meditasyonu için kullan.
 - **Blog:** `title` kartta görünen başlık.
-- **Ana sayfa:** `home.featuredPosts` ana sayfada gösterilecek iki blog yazısının `id`'leri. `home.banner` ana sayfadaki büyük görsel.
+- **Ana sayfa:** `home.featuredPosts` ana sayfada gösterilecek iki blog yazısının `id`'leri.
 
 ## Blog yazısı yazma
 
@@ -99,3 +99,7 @@ JSON'da bir virgül ya da tırnak hatası olursa uygulama dosyayı yok sayar ve 
 ## Blog görselleri
 
 `images/blog/*.webp` bir görüntü modeliyle değil, `tools/images/blog_visuals.py` ile kodla çizilir (160x80 piksel ızgarası, 10 kat büyütülmüş). Yeniden üretmek için: `pip install pillow numpy`, sonra `python -P tools/images/blog_visuals.py`. Çıktı dosyalarla bayt bayt aynıdır. Bir görseli değiştirirsen yeni bir dosya adı kullan (uygulama görselleri adına göre önbelleğe alır) ve `check_provenance.py --sync` çalıştır.
+
+## Ses kartı görselleri
+
+`images/meditations/*.webp` de kodla çizilir: `tools/images/card_visuals.py` (128x128 piksel ızgarası, 8 kat büyütülmüş, 1024x1024). `blog_visuals.py`'nin yardımcılarını kullanır. `python -P tools/images/card_visuals.py --preview` önizleme sayfası da yazar (hero, dikey kart ve daire kırpımlarını gösterir). Konu ortadaki ~86x72'lik alanda kalmalı; kenarlar kırpılıyor.
