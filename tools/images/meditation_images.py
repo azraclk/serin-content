@@ -127,29 +127,44 @@ b += f'<path d="M300 820 C400 800 624 800 724 820" stroke="{K}" stroke-width="{S
 b += f'<circle cx="512" cy="820" r="16" fill="{L1}" stroke="{K}" stroke-width="{SW*0.6}"/>'
 scenes["velvet"] = svg(b, defs)
 
-# 2. tide — a tide gauge standing in the rising and ebbing water
-defs = linear("g", [(0, L3), (0.55, L1), (0.8, W)]) + linear("post", [(0, L2), (1, L3)], vertical=False)
-b = f'<rect width="1024" height="1024" fill="url(#g)"/>' + stars(90, (0, 0, 1024, 420), 12)
-for y in (330, 500):
-    b += f'<path d="M150 {y} L874 {y}" stroke="{W}" stroke-width="7" fill="none" stroke-dasharray="4 22" stroke-linecap="round"/>'
-b += f'<rect x="478" y="250" width="68" height="660" rx="14" fill="url(#post)" stroke="{K}" stroke-width="{SW}"/>'
-for i, y in enumerate(range(290, 600, 40)):
-    w = 34 if i % 2 == 0 else 20
-    b += f'<path d="M478 {y} L{478+w} {y}" stroke="{K}" stroke-width="6"/>'
-b += f'<path d="M690 350 L690 480 M662 380 L690 346 L718 380 M662 450 L690 484 L718 450" stroke="{K}" stroke-width="12" fill="none"/>'
-b += sparkle(300, 240, 22) + sparkle(780, 230, 24) + sparkle(200, 420, 14) + sparkle(860, 420, 16)
-bands = [(600, 40, 0.0, L1), (700, 46, 1.3, L2), (800, 52, 2.4, L3), (900, 58, 0.7, D)]
-for y, A, ph, fill in bands:
-    pts = [(x, y + A * math.sin(x / 1024 * 2 * math.pi * 2 + ph)) for x in range(-20, 1050, 6)]
-    d = f"M-20 1060 " + " ".join(f"L{x} {yy:.1f}" for x, yy in pts) + " L1050 1060Z"
+# 2. tide — the water drawing back across the sand, seen from above
+defs = linear("sea", [(0, D), (1, L3)])
+b = f'<rect width="1024" height="1024" fill="{W}"/>' + f'<rect width="1024" height="430" fill="url(#sea)"/>'
+r = random.Random(12)
+for _ in range(26):
+    x, y, ln = r.uniform(40, 940), r.uniform(30, 340), r.uniform(30, 90)
+    b += f'<path d="M{x:.0f} {y:.0f} L{x+ln:.0f} {y:.0f}" stroke="{L1}" stroke-width="7" stroke-linecap="round" opacity="{r.uniform(0.4, 0.9):.2f}"/>'
+for sx, sy, s_ in [(200, 120, 22), (820, 200, 24), (520, 300, 16)]:
+    b += sparkle(sx, sy, s_)
+edges = [(400, 26, 0.0, 2.0, L2, W), (550, 30, 1.7, 1.6, L1, W), (710, 34, 3.1, 1.3, "#e6e3f6", W), (860, 30, 0.9, 1.0, W, L1)]
+for y, A, ph, k, fill, foam in edges:
+    pts = [(x, y + A * math.sin(x / 1024 * 2 * math.pi * k + ph)) for x in range(-20, 1050, 6)]
+    d = "M-20 1060 " + " ".join(f"L{x} {yy:.1f}" for x, yy in pts) + " L1050 1060Z"
     b += f'<path d="{d}" fill="{fill}" stroke="{K}" stroke-width="{SW}"/>'
-    fp = " ".join(f"L{x} {yy+30:.1f}" for x, yy in pts)
-    b += f'<path d="M-20 {pts[0][1]+30:.1f} {fp}" stroke="{W}" stroke-width="8" fill="none" stroke-dasharray="70 40"/>'
-    for k in range(5):
-        xc = (((math.pi / 2 - ph) / (2 * math.pi * 2) + k / 2) * 1024) - 1024
-        yc = y - A
-        for j, dx in enumerate((-40, -14, 14, 40)):
-            b += f'<circle cx="{xc+dx:.0f}" cy="{yc+14+abs(dx)*0.25:.0f}" r="{9-j%2*3}" fill="{W}"/>'
+    fp = " ".join(f"L{x} {yy+34:.1f}" for x, yy in pts)
+    b += f'<path d="M-20 {pts[0][1]+34:.1f} {fp}" stroke="{foam}" stroke-width="10" fill="none" stroke-dasharray="80 36" stroke-linecap="round"/>'
+    for _ in range(9):
+        x = r.uniform(30, 1000)
+        yy = y + A * math.sin(x / 1024 * 2 * math.pi * k + ph) + 16
+        b += f'<circle cx="{x:.0f}" cy="{yy:.0f}" r="{r.choice([5, 7, 9])}" fill="{foam}"/>'
+for _ in range(14):
+    x, y = r.uniform(60, 960), r.uniform(560, 990)
+    if 530 < x < 870 and 650 < y < 910:
+        continue
+    b += (f'<ellipse cx="{x:.0f}" cy="{y:.0f}" rx="{r.uniform(14, 26):.0f}" ry="{r.uniform(10, 17):.0f}" '
+          f'fill="{r.choice([L3, L2, D])}" stroke="{K}" stroke-width="{SW*0.5}"/>')
+cx, cy = 690, 790
+for sgn in (-1, 1):
+    for i, dy in enumerate((-14, 4, 22)):
+        b += f'<path d="M{cx+sgn*40} {cy+dy} L{cx+sgn*(78+i*6)} {cy+dy+22} L{cx+sgn*(84+i*6)} {cy+dy+40}" stroke="{K}" stroke-width="9" fill="none"/>'
+    b += f'<path d="M{cx+sgn*36} {cy-20} Q{cx+sgn*70} {cy-50} {cx+sgn*56} {cy-82}" stroke="{K}" stroke-width="9" fill="none"/>'
+    b += f'<circle cx="{cx+sgn*56}" cy="{cy-90}" r="24" fill="{P2}" stroke="{K}" stroke-width="{SW*0.7}"/>'
+    b += f'<path d="M{cx+sgn*56} {cy-90} L{cx+sgn*46} {cy-110}" stroke="{K}" stroke-width="7"/>'
+b += f'<ellipse cx="{cx}" cy="{cy}" rx="54" ry="38" fill="{P2}" stroke="{K}" stroke-width="{SW*0.8}"/>'
+b += f'<path d="M{cx-26} {cy+4} Q{cx} {cy+22} {cx+26} {cy+4}" stroke="{K}" stroke-width="6" fill="none"/>'
+for sgn in (-1, 1):
+    b += f'<path d="M{cx+sgn*14} {cy-34} L{cx+sgn*16} {cy-52}" stroke="{K}" stroke-width="6"/>'
+    b += f'<circle cx="{cx+sgn*16}" cy="{cy-56}" r="8" fill="{W}" stroke="{K}" stroke-width="5"/><circle cx="{cx+sgn*16}" cy="{cy-56}" r="3" fill="{K}"/>'
 scenes["tide"] = svg(b, defs)
 
 # 2. one-point — a single candle flame (trataka focus)
@@ -310,19 +325,25 @@ for i in range(9):
         b += f'<path d="M{x-25} {y} L{x} {y+26} L{x+25} {y}" stroke="{L2}" stroke-width="8" fill="none"/>'
 scenes["night_rain"] = svg(b, defs)
 
-# 5. pink-haze — layered pink hills dissolving into a soft mist
-defs = (linear("g", [(0, P3), (0.45, P1), (0.7, W)]) +
+# 5. pink-haze — layered pink hills dissolving into streaks of mist
+defs = (linear("g", [(0, P3), (0.4, P1), (0.65, W)]) +
         '<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>'
         '<stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>')
 b = f'<rect width="1024" height="1024" fill="url(#g)"/>'
-b += f'<circle cx="512" cy="560" r="400" fill="url(#glow)"/>'
+b += f'<circle cx="512" cy="480" r="420" fill="url(#glow)"/>'
 r = random.Random(49)
-for _ in range(190):
-    b += (f'<circle cx="{r.uniform(0, 1024):.0f}" cy="{r.uniform(40, 640):.0f}" r="{r.choice([2, 3, 3, 4, 6, 9])}" '
-          f'fill="{r.choice([W, W, P1, P2])}" opacity="{r.uniform(0.5, 0.95):.2f}"/>')
-for sx, sy, s_ in [(170, 170, 24), (860, 190, 22), (512, 90, 16), (120, 420, 14), (900, 420, 16)]:
+for _ in range(70):
+    b += (f'<circle cx="{r.uniform(0, 1024):.0f}" cy="{r.uniform(40, 470):.0f}" r="{r.choice([2, 3, 3, 4, 6])}" '
+          f'fill="{r.choice([W, W, P1])}" opacity="{r.uniform(0.5, 0.95):.2f}"/>')
+def streak(x, y, w, fill, fill2):
+    out = f'<rect x="{x}" y="{y}" width="{w}" height="46" rx="23" fill="{fill}" stroke="{K}" stroke-width="{SW*0.8}"/>'
+    out += f'<rect x="{x+w*0.22:.0f}" y="{y+34}" width="{w*0.62:.0f}" height="34" rx="17" fill="{fill2}" stroke="{K}" stroke-width="{SW*0.8}"/>'
+    return out
+for sx, sy, sw, f1, f2 in [(110, 150, 340, W, P1), (590, 215, 320, P1, W), (250, 320, 430, W, P2), (640, 400, 240, W, P1)]:
+    b += streak(sx, sy, sw, f1, f2)
+for sx, sy, s_ in [(170, 90, 22), (860, 120, 22), (512, 60, 16), (90, 330, 14), (930, 330, 16)]:
     b += sparkle(sx, sy, s_)
-layers = [(560, 60, 0.4, P1), (650, 70, 1.6, P2), (750, 60, 2.6, "#d996c0"), (850, 55, 0.9, P3), (950, 45, 2.0, L3)]
+layers = [(520, 60, 0.4, P1), (630, 70, 1.6, P2), (740, 60, 2.6, "#d996c0"), (850, 55, 0.9, P3), (950, 45, 2.0, L3)]
 for i, (y, A, ph, fill) in enumerate(layers):
     pts = [(x, y + A * math.sin(x / 1024 * 2 * math.pi * 1.3 + ph)) for x in range(-20, 1050, 8)]
     d = "M-20 1060 " + " ".join(f"L{x} {yy:.1f}" for x, yy in pts) + " L1050 1060Z"
