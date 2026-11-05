@@ -99,3 +99,7 @@ JSON'da bir virgül ya da tırnak hatası olursa uygulama dosyayı yok sayar ve 
 ## Blog görselleri
 
 `images/blog/*.webp` bir görüntü modeliyle değil, `tools/images/blog_visuals.py` ile kodla çizilir (160x80 piksel ızgarası, 10 kat büyütülmüş). Yeniden üretmek için: `pip install pillow numpy`, sonra `python -P tools/images/blog_visuals.py`. Çıktı dosyalarla bayt bayt aynıdır. Bir görseli değiştirirsen yeni bir dosya adı kullan (uygulama görselleri adına göre önbelleğe alır) ve `check_provenance.py --sync` çalıştır.
+
+## Ses kartı görselleri
+
+`images/meditations/*.webp` de kodla çizilir: `tools/images/card_visuals.py` (128x128 piksel ızgarası, 8 kat büyütülmüş, 1024x1024). `blog_visuals.py`'nin yardımcılarını kullanır. `python -P tools/images/card_visuals.py --preview` önizleme sayfası da yazar (hero, dikey kart ve daire kırpımlarını gösterir). Konu ortadaki ~86x72'lik alanda kalmalı; kenarlar kırpılıyor.

@@ -1,6 +1,5 @@
 {
   "home": {
-    "banner": "images/home/banner.jpg",
     "featuredPosts": [
       "history-of-meditation",
       "power-of-frequencies"
@@ -17,7 +16,7 @@
         "tr": "Kadife",
         "en": "Velvet"
       },
-      "image": "images/meditations/sleep.jpg",
+      "image": "images/meditations/velvet.webp",
       "audio": "audio/meditations/velvet.ogg",
       "description": {
         "tr": "Yumuşak kahverengi gürültü, altında çok kısık bir akor.",
@@ -34,7 +33,7 @@
         "tr": "Gelgit",
         "en": "Tide"
       },
-      "image": "images/meditations/breathing.jpg",
+      "image": "images/meditations/tide.webp",
       "audio": "audio/meditations/breath-tide.ogg",
       "description": {
         "tr": "Yirmi dört saniyede bir kabarıp çekilen sıcak bir akor.",
@@ -52,7 +51,7 @@
         "tr": "Tek Nokta",
         "en": "One Point"
       },
-      "image": "images/meditations/focus.jpg",
+      "image": "images/meditations/one-point.webp",
       "audio": "audio/meditations/one-point.ogg",
       "description": {
         "tr": "Tek bir re notası, tınısı yavaşça değişir.",
@@ -69,7 +68,7 @@
         "tr": "Ses Kasesi",
         "en": "Singing Bowl"
       },
-      "image": "images/meditations/mindfulness.jpg",
+      "image": "images/meditations/singing-bowl.webp",
       "audio": "audio/meditations/singing-bowl.ogg",
       "description": {
         "tr": "Yaklaşık yarım dakikada bir vurulan kase, sesi uzayıp söner.",
@@ -86,7 +85,7 @@
         "tr": "Kıyı",
         "en": "Shoreline"
       },
-      "image": "images/meditations/stress-relief.jpg",
+      "image": "images/meditations/shoreline.webp",
       "audio": "audio/meditations/shoreline.ogg",
       "description": {
         "tr": "Kabarıp köpüren, sonra geri çekilen dalgalar.",
@@ -103,7 +102,7 @@
         "tr": "Rüzgâr Çanı",
         "en": "Wind Chimes"
       },
-      "image": "images/meditations/chakra.jpg",
+      "image": "images/meditations/wind-chimes.webp",
       "audio": "audio/meditations/wind-and-chimes.ogg",
       "description": {
         "tr": "Esen rüzgâr ve arada küçük bir çan sesi.",
@@ -120,7 +119,7 @@
         "tr": "Gece Yağmuru",
         "en": "Night Rain"
       },
-      "image": "images/meditations/sleep.jpg",
+      "image": "images/meditations/night-rain.webp",
       "audio": "audio/meditations/night-rain.ogg",
       "description": {
         "tr": "Çatıya yağan düzenli yağmur ve uzaktan bir uğultu.",
@@ -137,7 +136,7 @@
         "tr": "Pembe Sis",
         "en": "Pink Haze"
       },
-      "image": "images/meditations/focus.jpg",
+      "image": "images/meditations/pink-haze.webp",
       "audio": "audio/meditations/pink-haze.ogg",
       "description": {
         "tr": "Pembe gürültü: dengeli, yumuşak bir hışırtı.",
