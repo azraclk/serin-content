@@ -6,7 +6,7 @@
 
 A record says where a file came from and under what terms Serin may use it:
 
-    "images/meditations/sleep.jpg": {
+    "images/meditations/velvet.webp": {
       "source":  original | generated-code | ai-generated | third-party | unknown,
       "license": "owned", an SPDX id such as "CC0-1.0", or "unknown",
       "created": "2026-10-07",
