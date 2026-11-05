@@ -152,7 +152,7 @@
         "tr": "Meditasyonun Tarihi: Geçmişten Bugüne",
         "en": "The History of Meditation: From the Past to Today"
       },
-      "image": "images/blog/history-of-meditation.jpg",
+      "image": "images/blog/history-of-meditation.webp",
       "body": {
         "tr": "posts/history-of-meditation.md",
         "en": "posts/history-of-meditation.en.md"
@@ -164,7 +164,7 @@
         "tr": "21 Gün Efsanesi ve Gerçekçi Bir Farkındalık Planı",
         "en": "The 21-Day Myth and a Realistic Mindfulness Plan"
       },
-      "image": "images/blog/mindfulness-habit.jpg",
+      "image": "images/blog/mindfulness-habit.webp",
       "body": {
         "tr": "posts/mindfulness-habit.md",
         "en": "posts/mindfulness-habit.en.md"
@@ -176,7 +176,7 @@
         "tr": "432 Hz ve 528 Hz: Kanıt Ne Diyor?",
         "en": "432 Hz and 528 Hz: What Does the Evidence Say?"
       },
-      "image": "images/blog/power-of-frequencies.jpg",
+      "image": "images/blog/power-of-frequencies.webp",
       "body": {
         "tr": "posts/power-of-frequencies.md",
         "en": "posts/power-of-frequencies.en.md"
@@ -188,7 +188,7 @@
         "tr": "Yavaş Nefes: Bilim Ne Diyor?",
         "en": "Slow Breathing: What Does the Science Say?"
       },
-      "image": "images/meditations/breathing.jpg",
+      "image": "images/blog/slow-breathing.webp",
       "body": {
         "tr": "posts/slow-breathing.md",
         "en": "posts/slow-breathing.en.md"
@@ -200,7 +200,7 @@
         "tr": "Uyku Öncesi Rutin ve Meditasyon: Ne Kadar Yardımcı?",
         "en": "Bedtime Routines and Meditation: How Much Do They Help?"
       },
-      "image": "images/meditations/sleep.jpg",
+      "image": "images/blog/bedtime-routine.webp",
       "body": {
         "tr": "posts/bedtime-routine.md",
         "en": "posts/bedtime-routine.en.md"
@@ -212,7 +212,7 @@
         "tr": "Pembe ve Beyaz Gürültü: Uykuya Yardım Eder mi?",
         "en": "Pink and White Noise: Do They Help You Sleep?"
       },
-      "image": "images/meditations/stress-relief.jpg",
+      "image": "images/blog/pink-and-white-noise.webp",
       "body": {
         "tr": "posts/pink-and-white-noise.md",
         "en": "posts/pink-and-white-noise.en.md"
