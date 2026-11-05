@@ -102,11 +102,11 @@ JSON'da bir virgül ya da tırnak hatası olursa uygulama dosyayı yok sayar ve 
 
 ## Ses kartı görselleri
 
-`images/meditations/*.webp` kodla çizilir: `tools/images/meditation_images.py` her sahneyi SVG olarak yazar, `rsvg-convert` ile 1024x1024 PNG'ye çevirir ve üstüne ince bir benek dokusu ekler. Gerekenler: `pip install numpy pillow` ve `rsvg-convert` (macOS: `brew install librsvg`, Ubuntu: `sudo apt install librsvg2-bin`, Windows: WSL ya da console-rsvg-convert).
+`images/meditations/*.png` kodla çizilir: `tools/images/meditation_images.py` her sahneyi SVG olarak yazar, `resvg-py` ile 1024x1024 PNG'ye çevirir ve üstüne ince bir benek dokusu ekler. Gereken: `pip install numpy pillow resvg-py`. Çıktı her çalıştırmada bayt bayt aynıdır.
 
 ```
-python tools/images/meditation_images.py output      # output/ altına 8 PNG yazar
-python -P tools/images/pngs_to_webp.py output        # PNG'leri kayıpsız WebP'ye çevirip images/meditations/ altına koyar
+python tools/images/meditation_images.py     # images/meditations/ altına 8 PNG yazar
+python tools/images/meditation_images.py klasor  # başka bir klasöre yazar
 ```
 
-Renkleri değiştirmek için betiğin başındaki palet sabitlerini (K, W, L1, L2, ...) düzenle. Konu görselin ortasında kalmalı; kartlar geniş yatay, dikey ve daire olarak kırpılıyor.
+Renkleri değiştirmek için betiğin başındaki palet sabitlerini (K, W, L1, L2, ...) düzenle. Konu görselin ortasında kalmalı; kartlar geniş yatay, dikey ve daire olarak kırpılıyor. Dosya değişirse yeni bir ad kullan (uygulama görselleri adına göre önbelleğe alır) ve `check_provenance.py --sync` çalıştır.

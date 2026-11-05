@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import sys
-import random, math, subprocess, os
+import random, math, os
 import numpy as np
+import resvg_py
 from PIL import Image
 
 
@@ -352,17 +353,18 @@ def grain(path):
 
 
 def main():
-    out = sys.argv[1] if len(sys.argv) > 1 else "output"
+    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "images", "meditations")
     os.makedirs(out, exist_ok=True)
     for name, s in scenes.items():
         sp = os.path.join(out, f"{name}.svg")
         pp = os.path.join(out, f"{name.replace('_', '-')}.png")
         with open(sp, "w", encoding="utf-8") as f:
             f.write(s)
-        subprocess.run(["rsvg-convert", "-w", "1024", "-h", "1024", sp, "-o", pp], check=True)
+        with open(pp, "wb") as f:
+            f.write(bytes(resvg_py.svg_to_bytes(svg_string=s, width=1024, height=1024)))
         grain(pp)
         os.remove(sp)
-        print("✓", pp)
+        print("written:", pp)
 
 
 if __name__ == "__main__":

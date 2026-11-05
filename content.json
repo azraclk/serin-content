@@ -16,7 +16,7 @@
         "tr": "Kadife",
         "en": "Velvet"
       },
-      "image": "images/meditations/velvet.webp",
+      "image": "images/meditations/velvet.png",
       "audio": "audio/meditations/velvet.ogg",
       "description": {
         "tr": "Yumuşak kahverengi gürültü, altında çok kısık bir akor.",
@@ -33,7 +33,7 @@
         "tr": "Gelgit",
         "en": "Tide"
       },
-      "image": "images/meditations/tide.webp",
+      "image": "images/meditations/tide.png",
       "audio": "audio/meditations/breath-tide.ogg",
       "description": {
         "tr": "Yirmi dört saniyede bir kabarıp çekilen sıcak bir akor.",
@@ -51,7 +51,7 @@
         "tr": "Tek Nokta",
         "en": "One Point"
       },
-      "image": "images/meditations/one-point.webp",
+      "image": "images/meditations/one-point.png",
       "audio": "audio/meditations/one-point.ogg",
       "description": {
         "tr": "Tek bir re notası, tınısı yavaşça değişir.",
@@ -68,7 +68,7 @@
         "tr": "Ses Kasesi",
         "en": "Singing Bowl"
       },
-      "image": "images/meditations/singing-bowl.webp",
+      "image": "images/meditations/singing-bowl.png",
       "audio": "audio/meditations/singing-bowl.ogg",
       "description": {
         "tr": "Yaklaşık yarım dakikada bir vurulan kase, sesi uzayıp söner.",
@@ -85,7 +85,7 @@
         "tr": "Kıyı",
         "en": "Shoreline"
       },
-      "image": "images/meditations/shoreline.webp",
+      "image": "images/meditations/shoreline.png",
       "audio": "audio/meditations/shoreline.ogg",
       "description": {
         "tr": "Kabarıp köpüren, sonra geri çekilen dalgalar.",
@@ -102,7 +102,7 @@
         "tr": "Rüzgâr Çanı",
         "en": "Wind Chimes"
       },
-      "image": "images/meditations/wind-chimes.webp",
+      "image": "images/meditations/wind-chimes.png",
       "audio": "audio/meditations/wind-and-chimes.ogg",
       "description": {
         "tr": "Esen rüzgâr ve arada küçük bir çan sesi.",
@@ -119,7 +119,7 @@
         "tr": "Gece Yağmuru",
         "en": "Night Rain"
       },
-      "image": "images/meditations/night-rain.webp",
+      "image": "images/meditations/night-rain.png",
       "audio": "audio/meditations/night-rain.ogg",
       "description": {
         "tr": "Çatıya yağan düzenli yağmur ve uzaktan bir uğultu.",
@@ -136,7 +136,7 @@
         "tr": "Pembe Sis",
         "en": "Pink Haze"
       },
-      "image": "images/meditations/pink-haze.webp",
+      "image": "images/meditations/pink-haze.png",
       "audio": "audio/meditations/pink-haze.ogg",
       "description": {
         "tr": "Pembe gürültü: dengeli, yumuşak bir hışırtı.",
