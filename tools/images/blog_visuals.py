@@ -1,15 +1,3 @@
-"""
-Serin blog yazılarının piksel-art görselleri. Hepsi bu betikle, kodla çizilir; görüntü modeli kullanılmaz.
-Çıktı: 1600x800 (2:1), kayıpsız WebP, images/blog/<yazı-id>.webp. Konu ortadaki 800x800 karede durur.
-
-Kullanım (repo kökünden):
-    pip install pillow numpy
-    python -P tools/images/blog_visuals.py                         # images/blog/ altına yazar
-    python -P tools/images/blog_visuals.py build/blog --png --preview
-
-Görseller 160x80'lik bir piksel ızgarasında çizilir ve S (=10) kat büyütülür.
-Boyutu değiştirmek için S'yi ayarlayın (ör. S=8 -> 1280x640).
-"""
 import os, sys
 import numpy as np, math, random
 from PIL import Image, ImageDraw
