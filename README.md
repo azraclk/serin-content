@@ -102,4 +102,11 @@ JSON'da bir virgül ya da tırnak hatası olursa uygulama dosyayı yok sayar ve 
 
 ## Ses kartı görselleri
 
-`images/meditations/*.webp` de kodla çizilir: `tools/images/card_visuals.py` (128x128 piksel ızgarası, 8 kat büyütülmüş, 1024x1024). `blog_visuals.py`'nin yardımcılarını kullanır. `python -P tools/images/card_visuals.py --preview` önizleme sayfası da yazar (hero, dikey kart ve daire kırpımlarını gösterir). Konu ortadaki ~86x72'lik alanda kalmalı; kenarlar kırpılıyor.
+`images/meditations/*.png` kodla çizilir: `tools/images/meditation_images.py` her sahneyi SVG olarak yazar, `resvg-py` ile 1024x1024 PNG'ye çevirir ve üstüne ince bir benek dokusu ekler. Gereken: `pip install numpy pillow resvg-py`. Çıktı her çalıştırmada bayt bayt aynıdır.
+
+```
+python tools/images/meditation_images.py     # images/meditations/ altına 8 PNG yazar
+python tools/images/meditation_images.py klasor  # başka bir klasöre yazar
+```
+
+Renkleri değiştirmek için betiğin başındaki palet sabitlerini (K, W, L1, L2, ...) düzenle. Konu görselin ortasında kalmalı; kartlar geniş yatay, dikey ve daire olarak kırpılıyor. Dosya değişirse yeni bir ad kullan (uygulama görselleri adına göre önbelleğe alır) ve `check_provenance.py --sync` çalıştır.
